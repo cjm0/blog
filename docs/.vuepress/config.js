@@ -41,9 +41,9 @@ module.exports = {
     // 主题配置
     // theme: 'undefined',
     themeConfig: {
-        repo: 'https://gitee.com/cjm0/blog',
+        repo: 'https://github.com/cjm0/blog.git',
         editLinks: true,
-        repoLabel: 'Gitee',
+        repoLabel: 'Github',
         docsDir: 'docs', // 假如文档不是放在仓库的根目录下
         locales: {
             '/': {
