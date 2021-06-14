@@ -17,6 +17,13 @@
 
 #### 文章列表
 
+- [Node.js 性能优化](https://cjm0.github.io/blog/page/node/perf.html)
+- [Node.js 多进程](https://cjm0.github.io/blog/page/node/process.html)
+- [从一次攻击看前端安全问题](https://cjm0.github.io/blog/page/node/security.html)
+- [HTTP、HTTP2、HTTPS全解析](https://cjm0.github.io/blog/page/node/http.html)
+- [V8 内存管理和垃圾回收机制](https://cjm0.github.io/blog/page/node/v8.html)
+- [Koa 洋葱模型](https://cjm0.github.io/blog/page/node/onion.html)
+
 - [挑战大厂第3篇-new、call、create等常见函数的内部实现](https://cjm0.github.io/blog/page/challenge/fn.html)
 - [挑战大厂第2篇-手动实现promise.all](https://cjm0.github.io/blog/page/challenge/promise_all.html)
 - [挑战大厂第1篇-js树结构互转](https://cjm0.github.io/blog/page/challenge/three.html)
@@ -25,11 +32,7 @@
 - [vscode 使用指南](https://cjm0.github.io/blog/page/list/vscode.html)
 - [js 拾遗](https://cjm0.github.io/blog/page/list/base_summary.html)
 - [听说你在找工作](https://cjm0.github.io/blog/page/list/need_work.html)
-- [JS 加法知多少？](https://cjm0.github.io/blog/page/list/add.html)
-- [v前端修炼之路](https://cjm0.github.io/blog/page/list/fe_up.html)
 - [npm cnpm npx nvm 傻傻分不清](https://cjm0.github.io/blog/page/list/npm.html)
-- [经典资源收藏](https://cjm0.github.io/blog/page/list/source_link.html)
-- [webpack4 一点通](https://cjm0.github.io/blog/page/list/webpack4.html)
 - [vue 无痕刷新](https://cjm0.github.io/blog/page/list/vue_reload.html)
 - [Vue ui 大法哪家强？](https://cjm0.github.io/blog/page/list/vue_ui_contrast.html)
 - [css 布局：两边固定中间自适应](https://cjm0.github.io/blog/page/list/css_layout_two.html)
