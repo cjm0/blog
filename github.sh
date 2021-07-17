@@ -24,6 +24,5 @@ git commit -m 'deploy'
 # git push -f git@gitee.com:<USERNAME>/<REPO>.git master:gh-pages
 git push -f git@github.com:cjm0/blog.git master:gh-pages
 
-
 # 返回上一次的工作目录
 cd -
