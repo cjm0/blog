@@ -17,6 +17,7 @@
 
 #### 文章列表
 
+- [Mac 设置开机启动](https://cjm0.github.io/blog/page/list/maclist.html)
 - [Node.js 性能优化](https://cjm0.github.io/blog/page/node/perf.html)
 - [Node.js 多进程](https://cjm0.github.io/blog/page/node/process.html)
 - [从一次攻击看前端安全问题](https://cjm0.github.io/blog/page/node/security.html)
