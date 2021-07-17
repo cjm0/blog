@@ -67,6 +67,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: 'Mac 开机自启动',
+                        url: '/page/list/maclist.html',
+                        date: '2021-07-17',
+                    },
+                    {
                         name: '敏捷开发扫盲',
                         url: '/page/life/aglie.html',
                         date: '2021-04-28',
