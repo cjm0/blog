@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>配置 | 前端一锅煮</title>
+    <meta name="description" content="个人总结的vuepress学习技术文档-配置">
+    <link rel="icon" href="/blog/logo.jpg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="msapplication-TileColor" content="#000000">
+    <meta name="keywords" content="vuepress,最新技术文档,vuepress配置文件">
+    <link rel="preload" href="/blog/assets/css/0.styles.f1c556b7.css" as="style"><link rel="preload" href="/blog/assets/js/app.7c77eb46.js" as="script"><link rel="preload" href="/blog/assets/js/53.30d67fa6.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.045efd31.js"><link rel="prefetch" href="/blog/assets/js/11.f931a7d0.js"><link rel="prefetch" href="/blog/assets/js/12.b5b16593.js"><link rel="prefetch" href="/blog/assets/js/13.7524e146.js"><link rel="prefetch" href="/blog/assets/js/14.df3d5cfb.js"><link rel="prefetch" href="/blog/assets/js/15.f8466c47.js"><link rel="prefetch" href="/blog/assets/js/16.0be3065a.js"><link rel="prefetch" href="/blog/assets/js/17.c39cb184.js"><link rel="prefetch" href="/blog/assets/js/18.338c7654.js"><link rel="prefetch" href="/blog/assets/js/19.7b90b53d.js"><link rel="prefetch" href="/blog/assets/js/2.0bcc5953.js"><link rel="prefetch" href="/blog/assets/js/20.17faaf86.js"><link rel="prefetch" href="/blog/assets/js/21.b2699124.js"><link rel="prefetch" href="/blog/assets/js/22.240873da.js"><link rel="prefetch" href="/blog/assets/js/23.fc4564bc.js"><link rel="prefetch" href="/blog/assets/js/24.06d27dfa.js"><link rel="prefetch" href="/blog/assets/js/25.55d4dc97.js"><link rel="prefetch" href="/blog/assets/js/26.db1bfb11.js"><link rel="prefetch" href="/blog/assets/js/27.b84e9927.js"><link rel="prefetch" href="/blog/assets/js/28.608ab7f3.js"><link rel="prefetch" href="/blog/assets/js/29.0c4cc607.js"><link rel="prefetch" href="/blog/assets/js/3.92e4d88b.js"><link rel="prefetch" href="/blog/assets/js/30.bd80eeac.js"><link rel="prefetch" href="/blog/assets/js/31.c5d304a7.js"><link rel="prefetch" href="/blog/assets/js/32.5e19f57c.js"><link rel="prefetch" href="/blog/assets/js/33.67ea1dfa.js"><link rel="prefetch" href="/blog/assets/js/34.df773988.js"><link rel="prefetch" href="/blog/assets/js/35.567b9492.js"><link rel="prefetch" href="/blog/assets/js/36.0f927b12.js"><link rel="prefetch" href="/blog/assets/js/37.b3b21c7b.js"><link rel="prefetch" href="/blog/assets/js/38.d26d7d57.js"><link rel="prefetch" href="/blog/assets/js/39.9f7898d5.js"><link rel="prefetch" href="/blog/assets/js/4.5e45e161.js"><link rel="prefetch" href="/blog/assets/js/40.f0bb92af.js"><link rel="prefetch" href="/blog/assets/js/41.6c8e113e.js"><link rel="prefetch" href="/blog/assets/js/42.e1cd331f.js"><link rel="prefetch" href="/blog/assets/js/43.5afedbcb.js"><link rel="prefetch" href="/blog/assets/js/44.45253bf0.js"><link rel="prefetch" href="/blog/assets/js/45.a0f26751.js"><link rel="prefetch" href="/blog/assets/js/46.4e02ba65.js"><link rel="prefetch" href="/blog/assets/js/47.b18cd396.js"><link rel="prefetch" href="/blog/assets/js/48.dcb214ed.js"><link rel="prefetch" href="/blog/assets/js/49.f174c43b.js"><link rel="prefetch" href="/blog/assets/js/5.41c02311.js"><link rel="prefetch" href="/blog/assets/js/50.5f6e26bd.js"><link rel="prefetch" href="/blog/assets/js/51.19cb24dc.js"><link rel="prefetch" href="/blog/assets/js/52.8b6eae65.js"><link rel="prefetch" href="/blog/assets/js/54.967695e2.js"><link rel="prefetch" href="/blog/assets/js/55.6d3394b4.js"><link rel="prefetch" href="/blog/assets/js/6.50eee80b.js"><link rel="prefetch" href="/blog/assets/js/7.ff4b5b93.js"><link rel="prefetch" href="/blog/assets/js/8.d71c0bf5.js"><link rel="prefetch" href="/blog/assets/js/9.d1e1412d.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.f1c556b7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">前端一锅煮</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link">首页</a></div><div class="nav-item"><a href="/blog/page/list/" class="nav-link">全部文章</a></div><div class="nav-item"><a href="/blog/page/vuepress/" class="nav-link router-link-active">VuePress笔记</a></div><div class="nav-item"><a href="/blog/page/about/" class="nav-link">关于我</a></div> <a href="https://github.com/cjm0/blog.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link">首页</a></div><div class="nav-item"><a href="/blog/page/list/" class="nav-link">全部文章</a></div><div class="nav-item"><a href="/blog/page/vuepress/" class="nav-link router-link-active">VuePress笔记</a></div><div class="nav-item"><a href="/blog/page/about/" class="nav-link">关于我</a></div> <a href="https://github.com/cjm0/blog.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>VuePress笔记</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/blog/page/vuepress/" class="sidebar-link">创建项目</a></li><li><a href="/blog/page/vuepress/api.html" class="sidebar-link">语法</a></li><li><a href="/blog/page/vuepress/config.html" class="active sidebar-link">配置</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/page/vuepress/config.html#配置文件" class="sidebar-link">配置文件</a></li></ul></li><li><a href="/blog/page/vuepress/theme.html" class="sidebar-link">主题</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="配置"><a href="#配置" class="header-anchor">#</a> 配置</h1> <h2 id="配置文件"><a href="#配置文件" class="header-anchor">#</a> 配置文件</h2> <p>VuePress 使用 markdown-it 来渲染 Markdown，大多数的拓展也都是通过自定义的插件实现的。可以通过 <code>.vuepress/config.js</code> 的 markdown 选项，来对当前的 markdown-it 实例做一些自定义的配置。</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    base<span class="token punctuation">:</span> <span class="token string">'/'</span><span class="token punctuation">,</span> <span class="token comment">// 部署站点的基础路径</span>
+    title<span class="token punctuation">:</span> <span class="token string">'undefined'</span><span class="token punctuation">,</span>
+    description<span class="token punctuation">:</span> <span class="token string">'undefined'</span><span class="token punctuation">,</span>
+    head<span class="token punctuation">:</span> <span class="token punctuation">[</span> <span class="token comment">// 添加链接 pwa 的 manifest 增加一个自定义的 favicon</span>
+        <span class="token punctuation">[</span><span class="token string">'link'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> rel<span class="token punctuation">:</span> <span class="token string">'icon'</span><span class="token punctuation">,</span> href<span class="token punctuation">:</span> <span class="token string">'/logo.jpg'</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span><span class="token string">'meta'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">'apple-mobile-web-app-capable'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'yes'</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span><span class="token string">'meta'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">'apple-mobile-web-app-status-bar-style'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'black'</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">[</span><span class="token string">'meta'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">'msapplication-TileColor'</span><span class="token punctuation">,</span> content<span class="token punctuation">:</span> <span class="token string">'#000000'</span> <span class="token punctuation">}</span><span class="token punctuation">]</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    host<span class="token punctuation">:</span> <span class="token string">'0.0.0.0'</span><span class="token punctuation">,</span> <span class="token comment">// 主机名</span>
+    port<span class="token punctuation">:</span> <span class="token number">3009</span><span class="token punctuation">,</span> <span class="token comment">// 端口号</span>
+    dest<span class="token punctuation">:</span> <span class="token string">'.vuepress/dist'</span><span class="token punctuation">,</span> <span class="token comment">// 指定 vuepress build 的输出目录</span>
+    ga<span class="token punctuation">:</span> <span class="token string">'undefined'</span><span class="token punctuation">,</span> <span class="token comment">// 提供一个 Google Analytics ID 来使 GA 生效</span>
+    serviceWorker<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// pwa</span>
+
+    locales<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token comment">// 多语言区分</span>
+        <span class="token string">'/'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            title<span class="token punctuation">:</span> <span class="token string">'前端一锅煮'</span><span class="token punctuation">,</span>
+            description<span class="token punctuation">:</span> <span class="token string">'这是一个用vuepress构建的用于前端学习、笔记记录、经典文章推荐的个人博客网站'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+    theme<span class="token punctuation">:</span> <span class="token string">'undefined'</span><span class="token punctuation">,</span>
+    themeConfig<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token comment">// 默认主题配置</span>
+        repo<span class="token punctuation">:</span> <span class="token string">'https://gitee.com/cjm0/vuepress'</span><span class="token punctuation">,</span>
+        editLinks<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        repoLabel<span class="token punctuation">:</span> <span class="token string">'码云gitee'</span><span class="token punctuation">,</span>
+        docsDir<span class="token punctuation">:</span> <span class="token string">'docs'</span><span class="token punctuation">,</span> <span class="token comment">// 假如文档不是放在仓库的根目录下</span>
+        locales<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">'/'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                docsBranch<span class="token punctuation">:</span> <span class="token string">'master'</span><span class="token punctuation">,</span> <span class="token comment">// 假如文档放在一个特定的分支下</span>
+                editLinkText<span class="token punctuation">:</span> <span class="token string">'在 GitHub 上编辑此页'</span><span class="token punctuation">,</span>
+                lastUpdated<span class="token punctuation">:</span> <span class="token string">'上次更新'</span><span class="token punctuation">,</span> <span class="token comment">// 获取每个文件最后一次 git 提交的时间戳</span>
+                nav<span class="token punctuation">:</span> <span class="token punctuation">[</span> <span class="token comment">// 顶部导航栏</span>
+                    <span class="token punctuation">{</span>
+                        text<span class="token punctuation">:</span> <span class="token string">'文章列表'</span><span class="token punctuation">,</span> 
+                        link<span class="token punctuation">:</span> <span class="token string">'/page/list/'</span>
+                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                    <span class="token punctuation">{</span>
+                        text<span class="token punctuation">:</span> <span class="token string">'test'</span><span class="token punctuation">,</span> 
+                        link<span class="token punctuation">:</span> <span class="token string">'/page/test/'</span>
+                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                    <span class="token punctuation">{</span>
+                        text<span class="token punctuation">:</span> <span class="token string">'vuepress笔记'</span><span class="token punctuation">,</span> 
+                        link<span class="token punctuation">:</span> <span class="token string">'/page/vuepress/'</span>
+                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                    <span class="token punctuation">{</span>
+                        text<span class="token punctuation">:</span> <span class="token string">'关于网站'</span><span class="token punctuation">,</span> 
+                        link<span class="token punctuation">:</span> <span class="token string">'/page/about/'</span>
+                    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">]</span><span class="token punctuation">,</span>
+                sidebar<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token comment">// 文档侧边栏 跳转到不同页面</span>
+                    <span class="token string">'/page/vuepress/'</span><span class="token punctuation">:</span>  <span class="token function">genSidebarConfig</span><span class="token punctuation">(</span><span class="token string">'vuepress笔记'</span><span class="token punctuation">)</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    markdown<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        anchor<span class="token punctuation">:</span> <span class="token punctuation">{</span> permalink<span class="token punctuation">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token comment">// markdown-it-anchor 的选项</span>
+        toc<span class="token punctuation">:</span> <span class="token punctuation">{</span> includeLevel<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token comment">// markdown-it-toc 的选项</span>
+        lineNumbers<span class="token punctuation">:</span> <span class="token string">'undefined'</span><span class="token punctuation">,</span> <span class="token comment">// 是否在每个代码块的左侧显示行号 -&gt; true</span>
+        externalLinks<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token comment">// 这个键值对将会作为特性被增加到是外部链接的 &lt;a&gt; 标签上，默认的选项将会在新窗口中打开一个该外部链接</span>
+            target<span class="token punctuation">:</span> <span class="token string">'_blank'</span><span class="token punctuation">,</span> 
+            rel<span class="token punctuation">:</span> <span class="token string">'noopener noreferrer'</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token function-variable function">config</span><span class="token punctuation">:</span> <span class="token parameter">md</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+            <span class="token comment">// 使用更多的 markdown-it 插件!</span>
+            md<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'markdown-it-xxx'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    postcss<span class="token punctuation">:</span> <span class="token punctuation">{</span> <span class="token comment">// 可以修改内部 webpack 配置</span>
+        plugins<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'autoprefixer'</span><span class="token punctuation">)</span><span class="token punctuation">]</span> 
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">genSidebarConfig</span> <span class="token punctuation">(</span><span class="token parameter">title</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            title<span class="token punctuation">,</span>
+            collapsable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 让一个组永远都是展开状态</span>
+            children<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+                <span class="token string">''</span><span class="token punctuation">,</span>
+                <span class="token string">'api'</span><span class="token punctuation">,</span>
+                <span class="token string">'config'</span><span class="token punctuation">,</span>
+                <span class="token string">'theme'</span>
+           <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <div class="page-edit"><div class="edit-link"><a href="https://github.com/cjm0/blog.git/edit/master/docs/page/vuepress/config.md" target="_blank" rel="noopener noreferrer">在 Gitee 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">上次更新: </span> <span class="time">2021-6-14 6:33:06 ├F10: PM┤</span></div></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/blog/page/vuepress/api.html" class="prev">
+          语法
+        </a></span> <span class="next"><a href="/blog/page/vuepress/theme.html">
+          主题
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/blog/assets/js/app.7c77eb46.js" defer></script><script src="/blog/assets/js/53.30d67fa6.js" defer></script>
+  </body>
+</html>

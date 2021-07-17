@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>语法 | 前端一锅煮</title>
+    <meta name="description" content="个人总结的vuepress学习技术文档-语法">
+    <link rel="icon" href="/blog/logo.jpg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="msapplication-TileColor" content="#000000">
+    <meta name="keywords" content="vuepress,最新技术文档,vuepress语法,markdown语法">
+    <link rel="preload" href="/blog/assets/css/0.styles.f1c556b7.css" as="style"><link rel="preload" href="/blog/assets/js/app.7c77eb46.js" as="script"><link rel="preload" href="/blog/assets/js/52.8b6eae65.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.045efd31.js"><link rel="prefetch" href="/blog/assets/js/11.f931a7d0.js"><link rel="prefetch" href="/blog/assets/js/12.b5b16593.js"><link rel="prefetch" href="/blog/assets/js/13.7524e146.js"><link rel="prefetch" href="/blog/assets/js/14.df3d5cfb.js"><link rel="prefetch" href="/blog/assets/js/15.f8466c47.js"><link rel="prefetch" href="/blog/assets/js/16.0be3065a.js"><link rel="prefetch" href="/blog/assets/js/17.c39cb184.js"><link rel="prefetch" href="/blog/assets/js/18.338c7654.js"><link rel="prefetch" href="/blog/assets/js/19.7b90b53d.js"><link rel="prefetch" href="/blog/assets/js/2.0bcc5953.js"><link rel="prefetch" href="/blog/assets/js/20.17faaf86.js"><link rel="prefetch" href="/blog/assets/js/21.b2699124.js"><link rel="prefetch" href="/blog/assets/js/22.240873da.js"><link rel="prefetch" href="/blog/assets/js/23.fc4564bc.js"><link rel="prefetch" href="/blog/assets/js/24.06d27dfa.js"><link rel="prefetch" href="/blog/assets/js/25.55d4dc97.js"><link rel="prefetch" href="/blog/assets/js/26.db1bfb11.js"><link rel="prefetch" href="/blog/assets/js/27.b84e9927.js"><link rel="prefetch" href="/blog/assets/js/28.608ab7f3.js"><link rel="prefetch" href="/blog/assets/js/29.0c4cc607.js"><link rel="prefetch" href="/blog/assets/js/3.92e4d88b.js"><link rel="prefetch" href="/blog/assets/js/30.bd80eeac.js"><link rel="prefetch" href="/blog/assets/js/31.c5d304a7.js"><link rel="prefetch" href="/blog/assets/js/32.5e19f57c.js"><link rel="prefetch" href="/blog/assets/js/33.67ea1dfa.js"><link rel="prefetch" href="/blog/assets/js/34.df773988.js"><link rel="prefetch" href="/blog/assets/js/35.567b9492.js"><link rel="prefetch" href="/blog/assets/js/36.0f927b12.js"><link rel="prefetch" href="/blog/assets/js/37.b3b21c7b.js"><link rel="prefetch" href="/blog/assets/js/38.d26d7d57.js"><link rel="prefetch" href="/blog/assets/js/39.9f7898d5.js"><link rel="prefetch" href="/blog/assets/js/4.5e45e161.js"><link rel="prefetch" href="/blog/assets/js/40.f0bb92af.js"><link rel="prefetch" href="/blog/assets/js/41.6c8e113e.js"><link rel="prefetch" href="/blog/assets/js/42.e1cd331f.js"><link rel="prefetch" href="/blog/assets/js/43.5afedbcb.js"><link rel="prefetch" href="/blog/assets/js/44.45253bf0.js"><link rel="prefetch" href="/blog/assets/js/45.a0f26751.js"><link rel="prefetch" href="/blog/assets/js/46.4e02ba65.js"><link rel="prefetch" href="/blog/assets/js/47.b18cd396.js"><link rel="prefetch" href="/blog/assets/js/48.dcb214ed.js"><link rel="prefetch" href="/blog/assets/js/49.f174c43b.js"><link rel="prefetch" href="/blog/assets/js/5.41c02311.js"><link rel="prefetch" href="/blog/assets/js/50.5f6e26bd.js"><link rel="prefetch" href="/blog/assets/js/51.19cb24dc.js"><link rel="prefetch" href="/blog/assets/js/53.30d67fa6.js"><link rel="prefetch" href="/blog/assets/js/54.967695e2.js"><link rel="prefetch" href="/blog/assets/js/55.6d3394b4.js"><link rel="prefetch" href="/blog/assets/js/6.50eee80b.js"><link rel="prefetch" href="/blog/assets/js/7.ff4b5b93.js"><link rel="prefetch" href="/blog/assets/js/8.d71c0bf5.js"><link rel="prefetch" href="/blog/assets/js/9.d1e1412d.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.f1c556b7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">前端一锅煮</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link">首页</a></div><div class="nav-item"><a href="/blog/page/list/" class="nav-link">全部文章</a></div><div class="nav-item"><a href="/blog/page/vuepress/" class="nav-link router-link-active">VuePress笔记</a></div><div class="nav-item"><a href="/blog/page/about/" class="nav-link">关于我</a></div> <a href="https://github.com/cjm0/blog.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link">首页</a></div><div class="nav-item"><a href="/blog/page/list/" class="nav-link">全部文章</a></div><div class="nav-item"><a href="/blog/page/vuepress/" class="nav-link router-link-active">VuePress笔记</a></div><div class="nav-item"><a href="/blog/page/about/" class="nav-link">关于我</a></div> <a href="https://github.com/cjm0/blog.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>VuePress笔记</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/blog/page/vuepress/" class="sidebar-link">创建项目</a></li><li><a href="/blog/page/vuepress/api.html" class="active sidebar-link">语法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#markdown-语法" class="sidebar-link">Markdown 语法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#常用语法" class="sidebar-link">常用语法</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#片段引用" class="sidebar-link">片段引用</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#图片链接" class="sidebar-link">图片链接</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#跳转链接" class="sidebar-link">跳转链接</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#代码" class="sidebar-link">代码</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#表格" class="sidebar-link">表格</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#内嵌代码" class="sidebar-link">内嵌代码</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#目录" class="sidebar-link">目录</a></li></ul></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#vuepress-语法" class="sidebar-link">Vuepress 语法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#头部插入" class="sidebar-link">头部插入</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#提示" class="sidebar-link">提示</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#代码块中的行高亮" class="sidebar-link">代码块中的行高亮</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#使用组件" class="sidebar-link">使用组件</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#使用-vue" class="sidebar-link">使用 vue</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#网站和页面的元数据" class="sidebar-link">网站和页面的元数据</a></li><li class="sidebar-sub-header"><a href="/blog/page/vuepress/api.html#默认引用的包" class="sidebar-link">默认引用的包</a></li></ul></li></ul></li><li><a href="/blog/page/vuepress/config.html" class="sidebar-link">配置</a></li><li><a href="/blog/page/vuepress/theme.html" class="sidebar-link">主题</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="语法"><a href="#语法" class="header-anchor">#</a> 语法</h1> <h2 id="markdown-语法"><a href="#markdown-语法" class="header-anchor">#</a> Markdown 语法</h2> <div class="warning custom-block"><p class="custom-block-title">注意</p> <p>Markdown 的语法经过 Vuepress 处理后，有部分不支持，少部分有差异，大体是一致的。
+支持各种嵌套，支持写 Vue 代码。
+<a href="https://www.jianshu.com/p/b03a8d7b1719#fn1" target="_blank" rel="noopener noreferrer">部分参考<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <h3 id="常用语法"><a href="#常用语法" class="header-anchor">#</a> 常用语法</h3> <div class="language-md extra-class"><pre class="language-md"><code><span class="token title important"><span class="token punctuation">#</span> ~ #######  标题</span>
+
+<span class="token list punctuation">-</span> a          无序列表
+<span class="token list punctuation">1.</span> a         有序列表
+
+<span class="token italic"><span class="token punctuation">*</span><span class="token content">a</span><span class="token punctuation">*</span></span>          斜体
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">a</span><span class="token punctuation">**</span></span>        粗体
+<span class="token bold"><span class="token punctuation">**</span><span class="token content"><span class="token italic"><span class="token punctuation">*</span><span class="token content">a</span><span class="token punctuation">*</span></span></span><span class="token punctuation">**</span></span>      粗体 + 斜体
+<span class="token strike"><span class="token punctuation">~~</span><span class="token content">a</span><span class="token punctuation">~~</span></span>        删除线
+
+***          分割线 
+行尾添加两个空格加回车表示换行
+</code></pre></div><h3 id="片段引用"><a href="#片段引用" class="header-anchor">#</a> 片段引用</h3> <p>单行引用</p> <div class="language-md extra-class"><pre class="language-md"><code><span class="token blockquote punctuation">&gt;</span> 过一个平凡无趣的人生实在太容易了
+</code></pre></div><blockquote><p>过一个平凡无趣的人生实在太容易了</p></blockquote> <p>多行引用</p> <div class="language-md extra-class"><pre class="language-md"><code><span class="token blockquote punctuation">&gt;</span> 过一个平凡无趣的人生实在太容易了   
+过一个平凡无趣的人生实在太容易了
+</code></pre></div><blockquote><p>过一个平凡无趣的人生实在太容易了<br>
+过一个平凡无趣的人生实在太容易了</p></blockquote> <p>多层嵌套</p> <div class="language-md extra-class"><pre class="language-md"><code><span class="token blockquote punctuation">&gt;</span> 11111111111111111  
+<span class="token blockquote punctuation">&gt;&gt;</span> 222222222222222222  
+<span class="token blockquote punctuation">&gt;&gt;&gt;</span> 3333333333333333333 
+</code></pre></div><blockquote><p>11111111111111111</p> <blockquote><p>222222222222222222</p> <blockquote><p>3333333333333333333</p></blockquote></blockquote></blockquote> <h3 id="图片链接"><a href="#图片链接" class="header-anchor">#</a> 图片链接</h3> <div class="language-md extra-class"><pre class="language-md"><code><span class="token url">![<span class="token content">网络图片</span>](https://500px.com/photo/276067085/foggy-mountain-by-tiger-seo)</span>
+<span class="token url">![<span class="token content">本地图片 img 文件夹</span>](../img/logo.png)</span>
+<span class="token url">![<span class="token content">本地图片 public 文件夹</span>](/logo.png)</span>
+</code></pre></div><h3 id="跳转链接"><a href="#跳转链接" class="header-anchor">#</a> 跳转链接</h3> <div class="language-md extra-class"><pre class="language-md"><code><span class="token url">[<span class="token content">外链跳转</span>](http://blog.bigqianduan.top)</span>
+<span class="token url">[<span class="token content">本地根路由</span>](/)</span> <span class="token comment">&lt;!-- 跳转到根部的 README.md --&gt;</span>
+<span class="token url">[<span class="token content">foo</span>](/foo/)</span> <span class="token comment">&lt;!-- 跳转到 foo 文件夹的 index.html --&gt;</span>
+<span class="token url">[<span class="token content">foo heading anchor</span>](/foo/#heading)</span> <span class="token comment">&lt;!-- 跳转到 foo/index.html 的特定 anchor 位置 --&gt;</span>
+<span class="token url">[<span class="token content">foo - one</span>](/foo/one.html)</span> <span class="token comment">&lt;!-- 具体文件可以使用 .html 结尾 --&gt;</span>
+<span class="token url">[<span class="token content">foo - two</span>](/foo/two.md)</span> <span class="token comment">&lt;!-- 也可以用 .md --&gt;</span>
+</code></pre></div><h3 id="代码"><a href="#代码" class="header-anchor">#</a> 代码</h3> <p>单行代码</p> <div class="language-md extra-class"><pre class="language-md"><code><span class="token code keyword">`page/list/`</span>
+</code></pre></div><p><code>page/list/</code></p> <p>多行代码</p> <div class="language-md extra-class"><pre class="language-md"><code>    ``` html | css | js | md | bash | json | yaml
+        var a = 10
+    ```
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code>    <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">10</span>
+</code></pre></div><h3 id="表格"><a href="#表格" class="header-anchor">#</a> 表格</h3> <p>多余空格会被忽略。</p> <p>默认标题栏居中对齐，内容居左对齐。</p> <p>-:表示内容和标题栏居右对齐，:-表示内容和标题栏居左对齐，:-:表示内容和标题栏居中对齐。</p> <div class="language-md extra-class"><pre class="language-md"><code>| ID | 书名 | 作者 |
+| -- | -- | -- |
+| 1 | 仙逆 | 耳根 |
+| 2 | 凡人修仙传 | 忘语 |
+| 3 | 遮天 | 辰东 |
+</code></pre></div><table><thead><tr><th>ID</th> <th style="text-align:center">书名</th> <th>作者</th></tr></thead> <tbody><tr><td>1</td> <td style="text-align:center">仙逆</td> <td>耳根</td></tr> <tr><td>2</td> <td style="text-align:center">凡人修仙传</td> <td>忘语</td></tr> <tr><td>3</td> <td style="text-align:center">遮天</td> <td>辰东</td></tr></tbody></table> <h3 id="内嵌代码"><a href="#内嵌代码" class="header-anchor">#</a> 内嵌代码</h3> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>kbd</span><span class="token punctuation">&gt;</span></span>Ctrl<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>kbd</span><span class="token punctuation">&gt;</span></span> // 键盘
+&lt;em style=&quot;margin:0 20px&gt;三生三世<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span> // 斜体
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span><span class="token punctuation">&gt;</span></span>三生三世<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span> // 强调加粗
+</code></pre></div><kbd>Ctrl</kbd> <em style="margin:0 20px">三生三世</em> <strong>三生三世</strong> <h3 id="目录"><a href="#目录" class="header-anchor">#</a> 目录</h3> <p>会显示当前页面对应结构目录，目录的渲染可以通过 <a href="https://vuepress.vuejs.org/zh/config/#markdown-toc" target="_blank" rel="noopener noreferrer"><code>markdown.toc</code><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 选项来配置。</p> <div class="language- extra-class"><pre class="language-text"><code>[[toc]]
+</code></pre></div><p></p><div class="table-of-contents"><ul><li><a href="#markdown-语法">Markdown 语法</a><ul><li><a href="#常用语法">常用语法</a></li><li><a href="#片段引用">片段引用</a></li><li><a href="#图片链接">图片链接</a></li><li><a href="#跳转链接">跳转链接</a></li><li><a href="#代码">代码</a></li><li><a href="#表格">表格</a></li><li><a href="#内嵌代码">内嵌代码</a></li><li><a href="#目录">目录</a></li></ul></li><li><a href="#vuepress-语法">Vuepress 语法</a><ul><li><a href="#头部插入">头部插入</a></li><li><a href="#提示">提示</a></li><li><a href="#代码块中的行高亮">代码块中的行高亮</a></li><li><a href="#使用组件">使用组件</a></li><li><a href="#使用-vue">使用 vue</a></li><li><a href="#网站和页面的元数据">网站和页面的元数据</a></li><li><a href="#默认引用的包">默认引用的包</a></li></ul></li></ul></div><p></p> <h2 id="vuepress-语法"><a href="#vuepress-语法" class="header-anchor">#</a> Vuepress 语法</h2> <h3 id="头部插入"><a href="#头部插入" class="header-anchor">#</a> 头部插入</h3> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token punctuation">---</span>
+<span class="token key atrule">lang</span><span class="token punctuation">:</span> zh<span class="token punctuation">-</span>CN // 使用中文时间
+<span class="token key atrule">editLink</span><span class="token punctuation">:</span> false // 禁用指定页面的编辑链接
+<span class="token key atrule">sidebar</span><span class="token punctuation">:</span> auto // 自动生成侧栏
+<span class="token key atrule">sidebar</span><span class="token punctuation">:</span> false // 禁用侧边栏
+<span class="token key atrule">sidebarDepth</span><span class="token punctuation">:</span> 2 // 侧边栏展开深度
+<span class="token key atrule">pageClass</span><span class="token punctuation">:</span> custom<span class="token punctuation">-</span>page<span class="token punctuation">-</span>class // 自定义页面类
+<span class="token key atrule">layout</span><span class="token punctuation">:</span> SpecialLayout // 使用一个完全自定义的组件来代替当前的页面（而只保留导航栏）
+<span class="token key atrule">home</span><span class="token punctuation">:</span> true // 使用默认主题提供的首页布局
+<span class="token key atrule">heroImage</span><span class="token punctuation">:</span> /hero.png
+<span class="token key atrule">actionText</span><span class="token punctuation">:</span> 快速上手 →
+<span class="token key atrule">actionLink</span><span class="token punctuation">:</span> /zh/guide/
+<span class="token key atrule">meta</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> description
+    <span class="token key atrule">content</span><span class="token punctuation">:</span> hello
+  <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> keywords
+    <span class="token key atrule">content</span><span class="token punctuation">:</span> super duper SEO
+<span class="token punctuation">---</span>
+</code></pre></div><h3 id="提示"><a href="#提示" class="header-anchor">#</a> 提示</h3> <div class="language-md extra-class"><pre class="language-md"><code>::: tip
+This is a tip
+:::
+
+::: tip 提示
+This is a tip
+:::
+
+::: warning
+This is a warning
+:::
+
+::: danger
+This is a dangerous warning
+:::
+</code></pre></div><div class="tip custom-block"><p class="custom-block-title">TIP</p> <p>This is a tip</p></div> <div class="tip custom-block"><p class="custom-block-title">提示</p> <p>This is a tip</p></div> <div class="warning custom-block"><p class="custom-block-title">WARNING</p> <p>This is a warning</p></div> <div class="danger custom-block"><p class="custom-block-title">WARNING</p> <p>This is a dangerous warning</p></div> <h3 id="代码块中的行高亮"><a href="#代码块中的行高亮" class="header-anchor">#</a> 代码块中的行高亮</h3> <div class="language-md extra-class"><pre class="language-md"><code>    ``` js{1}
+        export default {
+            data () {
+                return {
+                    msg: 'Highlighted!'
+                }
+            }
+        }
+    ```
+</code></pre></div><div class="language-js extra-class"><div class="highlight-lines"><div class="highlighted"> </div><br><br><br><br><br><br><br></div><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      msg<span class="token punctuation">:</span> <span class="token string">'Highlighted!'</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="使用组件"><a href="#使用组件" class="header-anchor">#</a> 使用组件</h3> <p>所有在 <code>.vuepress/components</code> 中找到的 <code>*.vue</code> 文件将会自动地被注册为全局的异步组件，如：</p> <div class="language- extra-class"><pre class="language-text"><code>.
+|_ .vuepress
+   |_ components
+      |- v-temp.vue
+      |- v-tab 
+        |- item.vue
+</code></pre></div><p>你可以直接使用这些组件在任意的 Markdown 文件中（组件名是通过文件名取到的）：</p> <div class="language-md extra-class"><pre class="language-md"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>v-temp</span><span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>v-tab-item</span><span class="token punctuation">/&gt;</span></span>
+</code></pre></div><h3 id="使用-vue"><a href="#使用-vue" class="header-anchor">#</a> 使用 vue</h3> <p>确保在 <code>beforeMount</code> 或者 <code>mounted</code> 访问浏览器 / DOM 的 API。</p> <p>如果你正在使用，或者需要展示一个对于 SSR 不怎么友好的组件（比如包含了自定义指令），你可以将它们包裹在内置的 <code>&lt;ClientOnly&gt;</code> 组件中：</p> <div class="language-md extra-class"><pre class="language-md"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ClientOnly</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>NonSSRFriendlyComponent</span><span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ClientOnly</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><p><code>&lt;Content&gt;</code> 组件会把页面中写的 Markdown 代码都包含进去</p> <div class="language-md extra-class"><pre class="language-md"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Content</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Content</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="网站和页面的元数据"><a href="#网站和页面的元数据" class="header-anchor">#</a> 网站和页面的元数据</h3> <p>整个网站以及特定页面的元数据将分别暴露为 this.$site 和 this.$page 属性，它们将会被注入到每一个当前应用的组件中。
+this.$route 和 this.$router 同样可以使用。</p> <div class="language-md extra-class"><pre class="language-md"><code>{{$site}}
+{{$page}} 
+</code></pre></div><h3 id="默认引用的包"><a href="#默认引用的包" class="header-anchor">#</a> 默认引用的包</h3> <table><thead><tr><th>引用的包</th> <th>用途</th></tr></thead> <tbody><tr><td>markdown-it</td> <td>渲染</td></tr> <tr><td>markdown</td> <td>基本语法</td></tr> <tr><td>markdown-it-anchor</td> <td>为各级标题添加锚点</td></tr> <tr><td>markdown-it-container</td> <td>用于创建自定义的块级容器</td></tr> <tr><td>markdown-it-emoji</td> <td>渲染 emoji</td></tr> <tr><td>markdown-it-table-of-contents</td> <td>自动生成目录</td></tr></tbody></table></div> <div class="page-edit"><div class="edit-link"><a href="https://github.com/cjm0/blog.git/edit/master/docs/page/vuepress/api.md" target="_blank" rel="noopener noreferrer">在 Gitee 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">上次更新: </span> <span class="time">2021-6-14 6:33:06 ├F10: PM┤</span></div></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/blog/page/vuepress/" class="prev router-link-active">
+          创建项目
+        </a></span> <span class="next"><a href="/blog/page/vuepress/config.html">
+          配置
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/blog/assets/js/app.7c77eb46.js" defer></script><script src="/blog/assets/js/52.8b6eae65.js" defer></script>
+  </body>
+</html>
