@@ -67,6 +67,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: '小思三则',
+                        url: '/page/life/think.html',
+                        date: '2021-08-30',
+                    },
+                    {
                         name: 'Mac 开机自启动',
                         url: '/page/list/maclist.html',
                         date: '2021-07-17',
