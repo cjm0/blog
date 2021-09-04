@@ -2,6 +2,8 @@
 lang: zh-CN
 pageClass: list_index
 meta:
+  - name: referrer
+    content: no-referrer
   - name: description
     content: 网站全部文章列表页面
   - name: keywords
@@ -66,6 +68,11 @@ meta:
         data() {
             return {
                 datas: [
+                    {
+                        name: '二论命名之下划线',
+                        url: '/page/list/underline.html',
+                        date: '2021-09-04',
+                    },
                     {
                         name: '小思三则',
                         url: '/page/life/think.html',
