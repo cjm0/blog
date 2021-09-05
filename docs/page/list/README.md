@@ -69,6 +69,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: '从零配置前端开发环境-Mac',
+                        url: '/page/list/mac.html',
+                        date: '2021-09-05',
+                    },
+                    {
                         name: '二论命名之下划线',
                         url: '/page/list/underline.html',
                         date: '2021-09-04',
