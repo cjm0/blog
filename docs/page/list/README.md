@@ -69,6 +69,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: '我的前端一天',
+                        url: '/page/list/feday.html',
+                        date: '2021-12-04',
+                    },
+                    {
                         name: '从零配置前端开发环境-Mac',
                         url: '/page/list/mac.html',
                         date: '2021-09-05',
