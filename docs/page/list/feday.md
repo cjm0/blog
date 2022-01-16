@@ -164,52 +164,52 @@ includeLanguages - "javascript": "javascriptreact"
 其他设置
 
 ```js
-  Auto Save - onFocusChange
-  Tab Size - 2
-  Cursor Blinking - smooth
-  Cursor Style - line-thin
-  Word Wrap - on
-  Auto Indent - advanced 粘贴保留格式
-  Folding Strategy - indentation 按空格缩进收起
-  Highlight Active Indent Guide - false
-  Match Brackets - never 突出显示匹配的括号
-  Max Tokenization Line Length - 100000
-  Render Control Characters - true
-  Render Whitespace - none
+Auto Save - onFocusChange
+Tab Size - 2
+Cursor Blinking - smooth
+Cursor Style - line-thin
+Word Wrap - on
+Auto Indent - advanced 粘贴保留格式
+Folding Strategy - indentation 按空格缩进收起
+Highlight Active Indent Guide - false
+Match Brackets - never 突出显示匹配的括号
+Max Tokenization Line Length - 100000
+Render Control Characters - true
+Render Whitespace - none
 
-  Tree: Indent - 10
-  Tree: Render Indent Guides - none
-  Initial Indent - true
-  Use Tabs - true
+Tree: Indent - 10
+Tree: Render Indent Guides - none
+Initial Indent - true
+Use Tabs - true
 
-  Minimap: Enabled - false
-  Update Imports On File Move: Enabled - never
-  Surveys: Enabled - false
-  Breadcrumbs: Enabled - true
-  Enable Crash Reporter - false
-  Enable Telemetry - false
-  Eslint: Enable - false
+Minimap: Enabled - false
+Update Imports On File Move: Enabled - never
+Surveys: Enabled - false
+Breadcrumbs: Enabled - true
+Enable Crash Reporter - false
+Enable Telemetry - false
+Eslint: Enable - false
 
-  Max Column - 40
-  Activity Bar: Visible - true
-  Side Bar: Location - left
-  Confirm Delete - false
-  Confirm Drag And Drop - false
-  Integrated: Split Cwd - initial
-  Page Size - 0
-  Show Scan Mode Button - false
-  Package Manager - yarn
-  Autorefresh - false
-  Validate: Scripts - false
-  Prettier: Semi - false
-  Prettier: Single Quote - true
-  Quote Style - single
-  Default Formatter: HTML - prettyhtml
-  Default Formatter: JS - prettier-eslint
-  Save File Before Run - true
-  Ignore Project Warning - true
-  Dont Show New Version Message - true
-  JS Official - true
+Max Column - 40
+Activity Bar: Visible - true
+Side Bar: Location - left
+Confirm Delete - false
+Confirm Drag And Drop - false
+Integrated: Split Cwd - initial
+Page Size - 0
+Show Scan Mode Button - false
+Package Manager - yarn
+Autorefresh - false
+Validate: Scripts - false
+Prettier: Semi - false
+Prettier: Single Quote - true
+Quote Style - single
+Default Formatter: HTML - prettyhtml
+Default Formatter: JS - prettier-eslint
+Save File Before Run - true
+Ignore Project Warning - true
+Dont Show New Version Message - true
+JS Official - true
 ```
 
 ## 终端安装
