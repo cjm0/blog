@@ -69,6 +69,11 @@ meta:
             return {
                 datas: [
                     {
+                        name: '快应用开发入门',
+                        url: '/page/list/quick_app.html',
+                        date: '2022-05-011',
+                    },
+                    {
                         name: '我的前端一天',
                         url: '/page/list/feday.html',
                         date: '2021-12-04',
