@@ -24,12 +24,6 @@ actions:
 
 <style lang="scss">
 .page_home {
-  .navbar{
-    .logo {
-      border-radius: 100px;
-    }
-  }
-
   .home {
     .hero {
       img {
