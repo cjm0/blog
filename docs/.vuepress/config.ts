@@ -1,20 +1,3 @@
----
-description: 个人总结的vuepress学习技术文档-配置
-head:
-  - - meta
-    - name: keywords
-      content: vuepress,最新技术文档,vuepress配置文件
----
-
-# 配置
-
-## 配置文件
-
-VuePress 站点的基本配置文件是 `.vuepress/config.ts` ，但也同样支持 TypeScript 配置文件。你可以使用 `.vuepress/config.ts` 来得到更好的类型提示。
-
-### config.ts
-
-```ts
 import { defineUserConfig } from 'vuepress'
 import { path } from '@vuepress/utils'
 const { defaultTheme } = require('@vuepress/theme-default') // 默认主题
@@ -207,27 +190,3 @@ export default defineUserConfig({
     }
   })
 })
-```
-
-### client.ts
-
-```ts
-import { defineClientConfig } from '@vuepress/client'
-
-export default defineClientConfig({
-  enhance({ app, router, siteData }) {
-    // router.beforeEach((to) => {
-    //   console.log('before navigation')
-    // })
-
-    // router.afterEach((to) => {
-    //   console.log('after navigation')
-    // })
-  },
-  setup() {
-
-  },
-  // 全局的 UI 组件
-  rootComponents: [],
-})
-```

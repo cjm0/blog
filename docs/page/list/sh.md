@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: mac shell 脚本编写教程
-  - name: keywords
-    content: 前端一锅煮,mac,shell脚本编写教程,bash命令
+description: mac shell 脚本编写教程
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,mac,shell脚本编写教程,bash命令
 ---
 
 # Shell 脚本编写教程
@@ -21,12 +20,12 @@ Shell 脚本与 Windows/Dos 下的批处理相似，也就是用各类命令预�
 
 方法二： 得先增加 test.sh 文件可执行权限
 
-`chmod 755 test.sh`  
+`chmod 755 test.sh`
 
 `./test.sh`
 
 
-## 语法 
+## 语法
 
 ### 基础语法
 
@@ -51,7 +50,7 @@ b=10
 c="this is test"
 d=$((a+b))
 
-echo $a 
+echo $a
 echo $c
 echo $d
 echo $((a+b))
@@ -62,7 +61,7 @@ echo $((a+b))
 
 ### 表达式
 
-``` bash 
+``` bash
 str="a b c d e f g h i j"
 
 echo ${str}          #源字符串
@@ -83,7 +82,7 @@ echo ${str}
 
 [ ] 里面每个变量之间都要有空格
 
-`-gt >` `-ge >= ` `-lt < ` `-le <= ` `-eq =` `-ne !=` 
+`-gt >` `-ge >= ` `-lt < ` `-le <= ` `-eq =` `-ne !=`
 
 ``` bash
 # 判断 test 或 []
@@ -103,7 +102,7 @@ test $num1 -eq $num2 && echo "num1 == num2" || echo "num1 != num2"
 
 格式：if 条件 ; then 结果 fi ，最后面一定要有 fi 。在 shell 脚本里面，控制分支结构结束都要和开头的单词相反，例如，`if <–> fi`，`case <–> esac`。
 
-``` bash 
+``` bash
 grades=70
 
 if [ $grades -ge 90 ] && [ $grades -le 100 ];then
@@ -141,7 +140,7 @@ done
 
 until 语句是只要条件为假就执行下列语句。
 
-``` bash 
+``` bash
 i=$1
 until [ $i -le 0 ]
 do
@@ -155,7 +154,7 @@ done
 
 #### for 语句
 
-``` bash 
+``` bash
 a=`seq 4 10`
 
 echo $a
@@ -172,10 +171,10 @@ done
 ### 函数
 
 ``` js
-funcName() { 
-    语句 
-    [return 返回值] 
-} 
+funcName() {
+    语句
+    [return 返回值]
+}
 ```
 
 返回值是可选的，如果没有显示 return 则默认返回最后一条语句执行的结果。

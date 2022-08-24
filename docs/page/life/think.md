@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 小思三则
-  - name: keywords
-    content: 前端一锅煮,一眼万年之生命的长度
+description: 小思三则
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,小思三则
 ---
 
 # 小思三则

@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 前端项目模板
-  - name: keywords
-    content: 前端一锅煮,vue,vue ssr,express,koa2,
+description: 前端项目模板
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,前端项目模板
 ---
 
 # 前端项目模板

@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 从自如搬家看代码整洁之道
-  - name: keywords
-    content: 前端一锅煮,从自如搬家看代码整洁之道
+description: 从自如搬家看代码整洁之道
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,从自如搬家看代码整洁之道
 ---
 
 # 从自如搬家看代码整洁之道

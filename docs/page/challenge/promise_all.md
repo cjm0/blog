@@ -1,14 +1,13 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 挑战大厂第2篇-手动实现promise.all
-  - name: keywords
-    content: 前端一锅煮,挑战大厂第2篇-手动实现promise.all
+description: 挑战大厂第2篇-手动实现promise.all
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,挑战大厂第2篇-手动实现promise.all
 ---
 
-# 挑战大厂第2篇-手动实现promise.all
+# 挑战大厂第2篇-手动实现 promise.all
 
 > 挑战大厂系列文章，转载请注明来源
 

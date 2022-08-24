@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: css双飞翼布局：两边固定中间自适应
-  - name: keywords
-    content: 前端一锅煮,css,双飞翼布局
+description: css 布局：两边固定中间自适应
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,css 布局：两边固定中间自适应
 ---
 
 # css 布局：两边固定中间自适应

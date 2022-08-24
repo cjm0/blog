@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 从一次攻击看前端安全问题
-  - name: keywords
-    content: 前端一锅煮,从一次攻击看前端安全问题
+description: 从一次攻击看前端安全问题
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,从一次攻击看前端安全问题
 ---
 
 # 从一次攻击看前端安全问题

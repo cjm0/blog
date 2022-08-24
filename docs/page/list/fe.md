@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 前端标准规范-v1.0
-  - name: keywords
-    content: 前端一锅煮,前端标准规范-v1.0
+description: 前端标准规范-v1.0
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,前端标准规范-v1.0
 ---
 
 # 前端标准规范-v1.0
@@ -34,8 +33,8 @@ meta:
         |- mixin.less // 全局 less 变量
         |- template.html // 模板
     |_ components // 组件
-        |_toast 
-            |- index.vue 
+        |_toast
+            |- index.vue
             |- index.less
         |- index.js // 所有组件的集合
     |_ pages // 具体页面
@@ -52,7 +51,7 @@ meta:
         |- index.js
     |_ vuex // vuex 插件
         |- index.js
-    |- App.vue 
+    |- App.vue
     |- main.js
 ```
 
@@ -66,9 +65,9 @@ meta:
 
 ### 文件命名
 
-文件命名统一使用小写字母，必要的时候可以加中划线 `-`  
+文件命名统一使用小写字母，必要的时候可以加中划线 `-`
 
-页面文件名不宜过长，里面的文件统一以 index 为前缀，`index.vue、index.less`  
+页面文件名不宜过长，里面的文件统一以 index 为前缀，`index.vue、index.less`
 
 父子组件命名：
 ```
@@ -82,19 +81,19 @@ meta:
 
 ### JS 书写格式
 
-借助 Eslint 以及编辑器的代码格式化功能确保代码格式统一  
+借助 Eslint 以及编辑器的代码格式化功能确保代码格式统一
 
 Eslint 使用 [JavaScript standard 代码规范](https://github.com/standard/standard/blob/master/docs/RULES-zhcn.md)
 
 ### JS 命名
 
-1. 全部用单引号  
+1. 全部用单引号
 
 2. 统一用驼峰命名法，尽量保持语义化
 
-3. 类名开头大写  
+3. 类名开头大写
 
-4. 合理使用复数、简称、缩写 
+4. 合理使用复数、简称、缩写
 
 5. 多写注释，同时保持精炼
 
@@ -106,7 +105,7 @@ Eslint 使用 [JavaScript standard 代码规范](https://github.com/standard/sta
 ```css
     .about_index{
         .tit{
-            font-size: 18px; 
+            font-size: 18px;
         }
         .nav{
             margin-bottom: 20PX;
@@ -118,41 +117,41 @@ Eslint 使用 [JavaScript standard 代码规范](https://github.com/standard/sta
 
 ## HTML 规范
 
-1. 增强语义化：尽量使用 h5 新标签 
+1. 增强语义化：尽量使用 h5 新标签
 
 2. 标签嵌套规则，防止诡异错误：`ul、ol` 下嵌套 `li`，`dl` 下嵌套`dt、dd`，`p、dt、h`标签里面不嵌套块元素，`a` 标签不能嵌套 `a`，行内元素不能嵌套块元素
 
-3. 注意 seo 优化：`img、a、strong、em、h1-h3`  
+3. 注意 seo 优化：`img、a、strong、em、h1-h3`
 
 4. 格式化标签：`span、em、strong` 格式化成无语义标签，`i` 统一给图标使用
 
-5. 全部用双引号，小写 
+5. 全部用双引号，小写
 
 ## 性能优化
 
 ### 提交代码前检查
 
-1. 图片 
+1. 图片
 
-必须加 favicon   
+必须加 favicon
 
-有下载需求的图片采用 img 标签实现，无下载需求的图片采用 CSS 背景图实现   
+有下载需求的图片采用 img 标签实现，无下载需求的图片采用 CSS 背景图实现
 
-ps 中的切图 jpg 品质取非常高(80)，然后用 PPDuck 压图工具做无损压缩   
+ps 中的切图 jpg 品质取非常高(80)，然后用 PPDuck 压图工具做无损压缩
 
-尽量使用 jpg 的图，移动端大张图片不大于 50kb   
+尽量使用 jpg 的图，移动端大张图片不大于 50kb
 
-移动端使用 2x 图  
+移动端使用 2x 图
 
-避免空的 src 和 href    
- 
+避免空的 src 和 href
+
 2. a 标签 href 如果为空，统一使用 `"javascript:;"` 而非 `"void(0)"`
 
-3. `border-radius: 2px` 值不能为单数，最小为 `2px` 
+3. `border-radius: 2px` 值不能为单数，最小为 `2px`
 
-4. 定位元素垂直居中 `top` 值一般写 `45%`，`50%` 看起来会偏下  
+4. 定位元素垂直居中 `top` 值一般写 `45%`，`50%` 看起来会偏下
 
-5. 合理的鼠标光标 
+5. 合理的鼠标光标
 
 6. 节流防抖
 

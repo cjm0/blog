@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: JS 加法知多少？
-  - name: keywords
-    content: 前端一锅煮,js,JS 加法知多少？
+description: JS 加法知多少？
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,JS 加法知多少？
 ---
 
 # JS 加法知多少？

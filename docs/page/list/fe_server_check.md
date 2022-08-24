@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 前后端上线必检清单
-  - name: keywords
-    content: 前端一锅煮,前后端上线必检清单
+description: 前后端上线必检清单
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,前后端上线必检清单
 ---
 
 # 前后端上线必检清单

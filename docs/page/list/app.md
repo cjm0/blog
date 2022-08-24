@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: App 二三记~
-  - name: keywords
-    content: 前端一锅煮,App 二三记~
+description: App 二三记~
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,App 二三记~
 ---
 
 # App 二三记~

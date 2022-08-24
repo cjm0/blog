@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 今天，从有趣的灵魂开始
-  - name: keywords
-    content: 前端一锅煮,今天，从有趣的灵魂开始
+description: 今天，从有趣的灵魂开始
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,今天，从有趣的灵魂开始
 ---
 
 # 今天，从有趣的灵魂开始

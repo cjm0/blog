@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 十二规划
-  - name: keywords
-    content: 前端一锅煮,十二规划
+description: 十二规划
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,十二规划
 ---
 
 # 十二规划

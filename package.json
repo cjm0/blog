@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A blog of 前端一锅煮 use VuePress",
   "main": "index.js",
   "author": "chenjianmin <129300400@qq.com>",
@@ -10,12 +10,8 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "less": "^3.8.1",
-    "less-loader": "^4.1.0",
     "os": "^0.1.1",
-    "pug": "^2.0.3",
-    "pug-plain-loader": "^1.0.0",
-    "vuepress": "^0.14.4"
+    "vuepress": "^2.0.0-beta.49"
   },
   "repository": {
     "type": "git",
@@ -25,5 +21,11 @@
     "blog",
     "vuepress",
     "qianduan"
-  ]
+  ],
+  "dependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.49",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.49",
+    "@vuepress/plugin-pwa": "^2.0.0-beta.49",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.49"
+  }
 }

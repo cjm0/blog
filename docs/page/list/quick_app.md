@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 快应用开发入门
-  - name: keywords
-    content: 前端一锅煮,快应用开发入门
+description: 快应用开发入门
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,快应用开发入门
 ---
 
 # 快应用开发入门
@@ -22,9 +21,9 @@ meta:
 
 ### 介绍
 
-**网页**：网页无需安装，体验不够很好；
+**网页**：网页无需安装，体验不够很好。
 
-**原生应用**：原生应用体验流畅，但需要从应用商店下载安装，难以一步直达用户，而且安装包比较大耗流量；
+**原生应用**：原生应用体验流畅，但需要从应用商店下载安装，难以一步直达用户，而且安装包比较大耗流量。
 
 **快应用**：深度集成在手机操作系统中，用户无需下载安装直接在手机上运行，可流畅的体验应用内容。
 
@@ -42,23 +41,19 @@ meta:
 
 ### 快速开始
 
-1. 安装快应用开发工具：https://www.quickapp.cn/docCenter/IDEPublicity
+1. [安装快应用开发工具](https://www.quickapp.cn/docCenter/IDEPublicity)
 
 2. 新建快应用工程
-
-图1
+![](https://pic1.zhimg.com/80/v2-c8b6b4dece86e22b9ce3353b27df6ca8_1440w.jpg)
 
 3. 代码结构
-
-图2
+![](https://pic4.zhimg.com/80/v2-8787304f0c972efb97fd9be37cf40e4f_1440w.jpg)
 
 4. 开发调试
-
-图3
+![](https://pic4.zhimg.com/80/v2-e78947dedf8b3f5bda37f62dc44376ef_1440w.jpg)
 
 5. 编译打包提交测试
-
-图4
+![](https://pic2.zhimg.com/80/v2-005c60809d05fc8f5399b69a3a406781_1440w.jpg)
 
 6. 上传至官网的开发者中心，提交审核发布
 
@@ -405,14 +400,12 @@ this.$app.getAppData('adbooks')
 
 2. 卡片加载有系统 loading，自己不需要再加 loading，否则2个 loading 会冲突，加载中间态要用骨架屏
 
-3. 缓存读取问题
+3. 缓存读取问题：负一屏卡片要读取快应用 `storage` 缓存，包名必须一致，不能独立建包，要把卡片嵌在快应用中，然后在管理平台创建智慧服务即可
 
-负一屏卡片要读取快应用 `storage` 缓存，包名必须一致，不能独立建包，要把卡片嵌在快应用中，然后在管理平台创建智慧服务即可
-
-4. `console` 查看
+4. console 查看
 
 - 电脑安装 `adb`
-- `brew cask install android-platform-tools`
+- brew cask install android-platform-tools
 - `adb logcat -c` 清除log缓存信息
 - `adb logcat -v time >./log.log` 写入日志，然后在日志文件中找信息
 

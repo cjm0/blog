@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 敏捷开发扫盲
-  - name: keywords
-    content: 前端一锅煮,敏捷开发扫盲
+description: 敏捷开发扫盲
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,敏捷开发扫盲
 ---
 
 # 敏捷开发扫盲

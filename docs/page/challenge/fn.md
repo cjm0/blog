@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 挑战大厂第3篇-new、call、create等常见函数的内部实现
-  - name: keywords
-    content: 挑战大厂第3篇-new、call、create等常见函数的内部实现
+description: 挑战大厂第3篇-new、call、create等常见函数的内部实现
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,挑战大厂第3篇-new、call、create等常见函数的内部实现
 ---
 
 # 挑战大厂第3篇-new、call、create等常见函数的内部实现

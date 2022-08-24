@@ -1,16 +1,13 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: vue ui 框架对比
-  - name: keywords
-    content: 前端一锅煮,vue ui,element,iview,vuex,mint-ui,vant,cube-ui
+description: vue ui 框架对比
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,vue ui,element,iview,vuex,mint-ui,vant,cube-ui
 ---
 
 # Vue ui 大法哪家强？
-
-
 
 ## Element(pc)
 
@@ -24,7 +21,7 @@ meta:
 
 1. 团队维护
 2. 支持三个版本：`vue、react、angular`
-3. 支持 `Nuxt.js` 
+3. 支持 `Nuxt.js`
 4. 常规支持：多语言、自定义主题、按需引入、内置过渡动画
 5. 文档详细，组件齐全
 6. 支持响应式布局，提供基于断点的隐藏类
@@ -57,7 +54,7 @@ meta:
 1. 团队维护
 2. 支持： `Nuxt.js、TypeScript、Electron`
 3. 常规支持：多语言、自定义主题、按需引入
-4. 文档详细，组件齐全 
+4. 文档详细，组件齐全
 5. 支持响应式布局
 6. `UI` 比较美观
 7. 适合常规 pc 端项目，皮肤美观
@@ -85,13 +82,13 @@ meta:
 ### Star：14.358k
 
 ### 项目特色
-    
+
 1. 个人维护
 2. 支持 `Nuxt.js`
 3. 支持自定义主题
 4. 组件样式仿照微信
 5. 适合微信端移动项目
-    
+
 ### 样式
 
 less 长类名区分
@@ -115,7 +112,7 @@ less 长类名区分
 ### Star：12.583k
 
 ### 项目特色
-    
+
 1. 团队维护
 2. 真正做到了按需引入，每个组件有单独的包
 3. `CSS3` 处理各种动效
@@ -145,7 +142,7 @@ less 长类名区分
 ### Star：6.31k
 
 ### 项目特色
-    
+
 1. 团队维护
 2. 有多个版本：`小程序 UI => Vant Weapp`、`PC 端 React UI => Zen`
 3. 支持 `SSR`

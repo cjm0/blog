@@ -1,15 +1,13 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 资源地址收藏
-  - name: keywords
-    content: markdown,资源地址收藏
+description: 经典资源收藏
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,经典资源收藏
 ---
 
 # 经典资源收藏
-
 
 ## Alfred工具
 
@@ -29,7 +27,7 @@ mac 快速搜索工具
 
 ## github 项目大全
 
-分享 GitHub 上有趣、入门级的开源项目  
+分享 GitHub 上有趣、入门级的开源项目
 
 [HELLOW GITHUB](https://hellogithub.com)
 
@@ -65,14 +63,14 @@ JavaScript 多端应用原理，文章比较经典
 ## 网页设计的常见错误
 
 设计原则：
-    
-- 不遮挡图片  
 
-- 间距对称一致  
+- 不遮挡图片
 
-- 样式简单  
+- 间距对称一致
 
-- 层次区分  
+- 样式简单
+
+- 层次区分
 
 - 该大的大 该小的小
 
@@ -90,7 +88,7 @@ JavaScript 多端应用原理，文章比较经典
 
 一个全新的开源技术文档分享平台
 
-- [Love2.io](https://love2.io)   
+- [Love2.io](https://love2.io)
 
 
 ## 新华字典数据库和 API

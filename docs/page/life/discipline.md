@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 你是怎么变自律的？
-  - name: keywords
-    content: 前端一锅煮,你是怎么变自律的？
+description: 你是怎么变自律的？
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,你是怎么变自律的？
 ---
 
 # 你是怎么变自律的？

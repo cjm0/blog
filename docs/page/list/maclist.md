@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: Mac 设置开机启动
-  - name: keywords
-    content: 前端一锅煮,js,Mac 设置开机启动
+description: Mac 设置开机启动
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,Mac 设置开机启动
 ---
 
 # Mac 设置开机启动

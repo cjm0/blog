@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 从零配置前端开发环境-Mac
-  - name: keywords
-    content: 前端一锅煮,js,从零配置前端开发环境-Mac
+description: 从零配置前端开发环境-Mac
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,从零配置前端开发环境-Mac
 ---
 
 # 从零配置前端开发环境-Mac

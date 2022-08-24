@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 移动端UI设计规范
-  - name: keywords
-    content: 前端一锅煮,移动端UI设计规范
+description: 移动端UI设计规范
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,移动端UI设计规范
 ---
 
 # 移动端UI设计规范

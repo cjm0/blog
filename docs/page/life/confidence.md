@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 自信的锚点
-  - name: keywords
-    content: 前端一锅煮,自信的锚点
+description: 自信的锚点
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,自信的锚点
 ---
 
 # 自信的锚点

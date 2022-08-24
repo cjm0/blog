@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: webpack4 基础版,实用版,对比webpack3,降低心里难度
-  - name: keywords
-    content: 前端一锅煮,webpack4,webpack3
+description: webpack4 基础版,实用版,对比webpack3,降低心里难度
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,webpack4,webpack3
 ---
 
 # webpack4 一点通
@@ -16,12 +15,12 @@ meta:
 
 webpack 最新版本 **v4.26.0**
 
-github star：**45.292k**  
+github star：**45.292k**
 
 需要同时安装 `webpack`、`webpack-cli`、`webpack-dev-server`，建议安装在每个独立项目而不是全局，这样方便单独使用 webpack3 或者 webpack4
 
 ```bash
-yarn add webpack webpack-cli webpack-dev-server -D 
+yarn add webpack webpack-cli webpack-dev-server -D
 或者：
 cnpm install webpack webpack-cli webpack-dev-server -D
 ```
@@ -48,7 +47,7 @@ webpack4 会根据环境自动设置一些默认配置，下面是一个最基�
 
 **webpack.config.js**
 
-```js 
+```js
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
@@ -66,7 +65,7 @@ module.exports = {
         port: 3003,
     },
     plugins: [
-        new HtmlWebpackPlugin({ 
+        new HtmlWebpackPlugin({
             filename: 'index.html',
             template: path.resolve(__dirname, 'template.html'),
         }),
@@ -83,7 +82,7 @@ module.exports = {
 
 ### package.json
 
-在实际使用中建议分开配置，生产环境和开发环境分别对应一个配置文件  
+在实际使用中建议分开配置，生产环境和开发环境分别对应一个配置文件
 
 ```json
 // --config config/webpack.dev.js  配置文件的路径
@@ -146,7 +145,7 @@ module.exports = {
 
 ```js
 const config = require('./base.conf.js') // 配置文件
-const path = require('path') 
+const path = require('path')
 const webpack = require('webpack')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
@@ -156,12 +155,12 @@ const os = require('os')
 const happyThreadPool = HappyPack.ThreadPool({ size: os.cpus().length })
 
 // 处理路径
-function resolve (dir) { 
+function resolve (dir) {
     return path.join(__dirname, '..', dir)
 }
 
 // eslint检测
-const createLintingRule = () => ({ 
+const createLintingRule = () => ({
     test: /\.(js|vue)$/,
     loader: 'eslint-loader',
     enforce: 'pre',
@@ -174,14 +173,14 @@ const createLintingRule = () => ({
 })
 
 // 获取当前环境
-const prod = process.env.NODE_ENV === 'production' 
+const prod = process.env.NODE_ENV === 'production'
 
 module.exports = {
     context: path.resolve(__dirname, '../'), // 作用于entry 和 loader
     entry: {
         index: './src/main.js',
     },
-    output: { 
+    output: {
         path: resolve(`${config.base.filePath}`), // 输出到static这个地址 只能是绝对路径
         filename: 'js/[name].js',
         chunkFilename: 'js/[name]_[chunkhash:6].js'
@@ -227,7 +226,7 @@ module.exports = {
                                         引用其他如img/a.png会寻址错误
                                         这种情况下所以单独需要配置../，复写其中资源的路径
                                     */
-                                }, 
+                                },
                             },
                             {
                                 loader: 'css-loader',
@@ -247,7 +246,7 @@ module.exports = {
                                 loader: prod ? MiniCssExtractPlugin.loader : 'vue-style-loader',
                                 options: {
                                     publicPath: '../'
-                                }, 
+                                },
                             },
                             'css-loader',
                             'postcss-loader',
@@ -266,7 +265,7 @@ module.exports = {
                                 loader: prod ? MiniCssExtractPlugin.loader : 'vue-style-loader',
                                 options: {
                                     publicPath: '../'
-                                }, 
+                                },
                             },
                             {
                                 loader: 'css-loader',
@@ -287,7 +286,7 @@ module.exports = {
                                 loader: prod ? MiniCssExtractPlugin.loader : 'vue-style-loader',
                                 options: {
                                     publicPath: '../'
-                                }, 
+                                },
                             },
                             'css-loader',
                             'postcss-loader',
@@ -350,7 +349,7 @@ module.exports = {
 
 开发环境配置，主要是在本地启动一个服务
 
-```js 
+```js
 process.env.NODE_ENV = 'development' // 设置当前环境为开发环境 放在最上面
 const config = require('./base.conf.js') // 配置文件
 const baseWebpackConfig = require('./webpack.base.js')
@@ -382,7 +381,7 @@ module.exports = merge(baseWebpackConfig, {
         proxy: config.dev.proxy,
     },
     plugins: [
-        new HtmlWebpackPlugin({ 
+        new HtmlWebpackPlugin({
             filename: 'index.html',
             template: path.resolve(__dirname, '../src/assets/template.html'),
             vendorJsName: 'vendor.dll.js', // 给模板引用
@@ -395,15 +394,15 @@ module.exports = merge(baseWebpackConfig, {
             }
         }),
         new CopyWebpackPlugin( // 本地开发环境
-            [ 
-                { 
+            [
+                {
                     from: path.resolve(__dirname, '../dist/static/js/vendor.dll.js'),
                     to: './static/',
                 }
-            ], 
+            ],
             {
                 ignore: ['.DS_Store'],
-                copyUnmodified: true, 
+                copyUnmodified: true,
                 // debug: "debug" // 是否打印复制的详细信息
             }
         )
@@ -413,7 +412,7 @@ module.exports = merge(baseWebpackConfig, {
 ```
 
 
-### webpack.prod.js 
+### webpack.prod.js
 
 生产环境配置
 
@@ -453,15 +452,15 @@ module.exports = merge(baseWebpackConfig, {
             }
         ),
         new CopyWebpackPlugin( // 这部分不会被 webpack loader 处理
-            [ 
-                { 
+            [
+                {
                     from: path.resolve(__dirname, '../src/public/'),
                     to: 'public/',
                 },
-            ], 
+            ],
             {
                 ignore: ['.DS_Store'],
-                copyUnmodified: true, 
+                copyUnmodified: true,
                 // debug: "debug" // 是否打印复制的详细信息
             }
         ),
@@ -481,7 +480,7 @@ module.exports = merge(baseWebpackConfig, {
         new HtmlWebpackPlugin({
             filename: '../index.html', // 相对于static的路径
             template: path.resolve(__dirname, '../src/assets/template.html'),
-            hash: true, 
+            hash: true,
             minify: {
                 removeAttributeQuotes: true, // 清除属性引号
                 collapseWhitespace: true, // 清除多余空格
@@ -504,7 +503,7 @@ module.exports = merge(baseWebpackConfig, {
 
 ```js
 const config = require('./base.conf.js') // 配置文件
-const package = require('../package.json') 
+const package = require('../package.json')
 const path = require('path')
 const webpack = require('webpack')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
@@ -550,7 +549,7 @@ module.exports = {
 
 ### 注意
 
-**1. mode** 
+**1. mode**
 
 webpack增加了一个 `mode` 配置，只有两种值 `development | production`。对不同的环境会启用不同的配置：
 
@@ -561,31 +560,31 @@ webpack增加了一个 `mode` 配置，只有两种值 `development | production
 
 `NamedModulesPlugin` 当开启 HMR 的时候使用该插件会显示模块的相对路径，建议用于开发环境
 
-`ModuleConcatenationPlugin` 预编译所有模块到一个闭包中，提升你的代码在浏览器中的执行速度 
+`ModuleConcatenationPlugin` 预编译所有模块到一个闭包中，提升你的代码在浏览器中的执行速度
 
-`NoEmitOnErrorsPlugin` 在编译出现错误时，直接退出 
+`NoEmitOnErrorsPlugin` 在编译出现错误时，直接退出
 
-`OccurrenceOrderPlugin` 为组件分配ID，通过这个插件webpack可以分析和优先考虑使用最多的模块，并为它们分配最小的ID  
+`OccurrenceOrderPlugin` 为组件分配ID，通过这个插件webpack可以分析和优先考虑使用最多的模块，并为它们分配最小的ID
 
 **2. loader**
 
-解析转换源代码,从右到左执行，链式传递 
+解析转换源代码,从右到左执行，链式传递
 
 `include/exclude` 手动添加必须处理的文件（文件夹）或屏蔽不需要处理的文件（文件夹）
 
-`css-loader` 使你能够使用类似 `@import` 和 `url(...)` 的方法实现 `require()` 的功能 
+`css-loader` 使你能够使用类似 `@import` 和 `url(...)` 的方法实现 `require()` 的功能
 
-`style-loader` 将所有的计算后的样式加入页面中 
+`style-loader` 将所有的计算后的样式加入页面中
 
-**3. plugins**  
+**3. plugins**
 
 解决 loader 无法实现的其他事
 
-**4. Manifest**  
+**4. Manifest**
 
 资源映射文件，解析和加载模块
 
-**5. autoprefixer.browsers**  
+**5. autoprefixer.browsers**
 
 [每个配置支持的浏览器](https://browserl.ist)
 
@@ -600,7 +599,7 @@ webpack增加了一个 `mode` 配置，只有两种值 `development | production
 
 ## 对比 webpack3
 
-**1. 增加 mode 配置**  
+**1. 增加 mode 配置**
 
 - 默认生产环境开起了很多代码优化（minify, splite）
 
@@ -624,7 +623,7 @@ webpack 启动命令行的代码放入了 webpack-cli 中，只安装 webpack，
 
 不需要使用这个插件，只需要使用 `optimization.minimize` 为 true 就行，production mode 下自动为 true
 
-**5. vue-cli3** 
+**5. vue-cli3**
 
 `vue inspect > output.js`
 

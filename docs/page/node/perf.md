@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: Node.js 性能优化
-  - name: keywords
-    content: 前端一锅煮,Node.js 性能优化
+description: Node.js 性能优化
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,Node.js 性能优化
 ---
 
 # Node.js 性能优化

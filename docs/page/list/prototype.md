@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: JS 原型链
-  - name: keywords
-    content: 前端一锅煮,JS 原型链
+description: JS 原型链
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,JS 原型链
 ---
 
 # JS 原型链

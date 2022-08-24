@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: Koa 洋葱模型
-  - name: keywords
-    content: 前端一锅煮,Koa 洋葱模型
+description: Koa 洋葱模型
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,Koa 洋葱模型
 ---
 
 # Koa 洋葱模型

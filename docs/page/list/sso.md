@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: SSO 单点登录
-  - name: keywords
-    content: 前端一锅煮,SSO 单点登录
+description: SSO 单点登录
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,SSO 单点登录
 ---
 
 # SSO 单点登录

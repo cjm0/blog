@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 前后端命名最佳实践
-  - name: keywords
-    content: 前端一锅煮,前后端命名最佳实践
+description: 前后端命名最佳实践
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,前后端命名最佳实践
 ---
 
 # 前后端命名最佳实践

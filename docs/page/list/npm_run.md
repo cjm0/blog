@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 优化 NPM 运行脚本
-  - name: keywords
-    content: 前端一锅煮,优化 NPM 运行脚本
+description: 优化 NPM 运行脚本
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,优化 NPM 运行脚本
 ---
 
 # 优化 NPM 运行脚本

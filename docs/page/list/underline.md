@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 二论命名之下划线
-  - name: keywords
-    content: 前端一锅煮,js,下划线,命名,二论命名之下划线
+description: 二论命名之下划线
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,js,下划线,命名,二论命名之下划线
 ---
 
 # 二论命名之下划线

@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: js 拾遗
-  - name: keywords
-    content: 前端一锅煮,mac,js 拾遗
+description: js 拾遗
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,js 拾遗
 ---
 
 # js 拾遗

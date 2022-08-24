@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: ES2015~ES2021 各阶段新特性
-  - name: keywords
-    content: 前端一锅煮,ES2015~ES2021 各阶段新特性
+description: ES2015~ES2021 新特性
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,ES2015~ES2021 新特性
 ---
 
 # ES2015~ES2021 新特性

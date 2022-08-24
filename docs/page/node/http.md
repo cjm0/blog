@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: HTTP、HTTP2、HTTPS全解析
-  - name: keywords
-    content: 前端一锅煮,HTTP、HTTP2、HTTPS全解析
+description: HTTP、HTTP2、HTTPS全解析
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,HTTP、HTTP2、HTTPS全解析
 ---
 
 # HTTP、HTTP2、HTTPS全解析

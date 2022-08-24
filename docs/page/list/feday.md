@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 我的前端一天
-  - name: keywords
-    content: 前端一锅煮,我的前端一天
+description: 我的前端一天
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,我的前端一天
 ---
 
 # 我的前端一天

@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 一眼万年之生命的长度
-  - name: keywords
-    content: 前端一锅煮,一眼万年之生命的长度
+description: 一眼万年之生命的长度
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,一眼万年之生命的长度
 ---
 
 # 一眼万年之生命的长度

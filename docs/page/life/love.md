@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 表白情书
-  - name: keywords
-    content: 前端一锅煮,表白情书
+description: 表白情书
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,表白情书
 ---
 
 亲爱的娜娜，你好：

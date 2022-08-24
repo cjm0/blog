@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: Node.js 多进程
-  - name: keywords
-    content: 前端一锅煮,Node.js 多进程
+description: Node.js 多进程
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,Node.js 多进程
 ---
 
 # Node.js 多进程

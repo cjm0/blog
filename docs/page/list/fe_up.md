@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 前端修炼之路
-  - name: keywords
-    content: 前端一锅煮,前端修炼之路
+description: 前端修炼之路
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,前端修炼之路
 ---
 
 # 前端修炼之路
@@ -18,7 +17,7 @@ meta:
 
 掌握以下知识点：
 
-1. 基础结构：html，h5 
+1. 基础结构：html，h5
 
 2. 基础样式：css，css3
 
@@ -40,27 +39,27 @@ meta:
 
 2. UI 组件库：element、iview、vuex、mint-ui、vant、cube-ui等
 
-3. 后端渲染：nuxt.js 
+3. 后端渲染：nuxt.js
 
 4. 语法升级：es6+，less、scss、styls
 
-5. 工具：vue-cli，babel7，webpack4，eslint，vue devtools 
+5. 工具：vue-cli，babel7，webpack4，eslint，vue devtools
 
 6. 其他：调试工具，vuepress
 
 **打怪升级，恭喜晋级成功~**
-        
+
 ## react 生态
 
 1. 基础套件：react，react-router，jsx，axios，react react history 模式，redux、mobx等
 
 2. UI 组件库：antd，antd-mobile
 
-3. 后端渲染：next.js 
+3. 后端渲染：next.js
 
 4. 工具：create-react-app，react-devtools
 
-5. react-native 
+5. react-native
 
 **持续打副本刷经验中~**
 
@@ -70,7 +69,7 @@ meta:
 
 2. 小游戏生态
 
-3. 微信公众号生态：微信授权登录、支付、分享等常用功能 
+3. 微信公众号生态：微信授权登录、支付、分享等常用功能
 
 **闯关成功，成功晋级~**
 
@@ -84,13 +83,13 @@ meta:
 
 4. 插件：redis、express-redis-cache、Redis Desktop Manager、moment、nodemailer等
 
-5. 命令行：linux、cmd、mac 命令  
+5. 命令行：linux、cmd、mac 命令
 
 6. 工具：express-generator，koa-generator，robo3t，postman，mobaXterm，Sequel Pro
 
 **击败终极 Boss，成功完成凡间界修炼，开始新世界之旅~**
 
-## 其他 
+## 其他
 
 1. 常用工具：编辑器 sublime 研究，ps切图工具，抓包工具，上传代码工具，图片压缩工具，截图工具，取颜色工具，markdown等
 
@@ -122,4 +121,3 @@ meta:
 
 
 
-       

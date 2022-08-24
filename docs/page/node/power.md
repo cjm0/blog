@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: MongoDB 只读权限设置
-  - name: keywords
-    content: 前端一锅煮,MongoDB 只读权限设置
+description: MongoDB 只读权限设置
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,MongoDB 只读权限设置
 ---
 
 # MongoDB 只读权限设置

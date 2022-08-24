@@ -1,12 +1,12 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: vscode 使用指南
-  - name: keywords
-    content: vscode,使用指南
+description: VS Code 使用指南
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,VS Code 使用指南
 ---
+
 # VS Code 使用指南
 
 ## 官方地址

@@ -1,11 +1,10 @@
 ---
-lang: zh-CN
 sidebar: auto
-meta:
-  - name: description
-    content: 深入理解事件循环机制
-  - name: keywords
-    content: 前端一锅煮,深入理解事件循环机制
+description: 深入理解事件循环机制
+head:
+  - - meta
+    - name: keywords
+      content: 前端一锅煮,深入理解事件循环机制
 ---
 
 # 深入理解事件循环机制
