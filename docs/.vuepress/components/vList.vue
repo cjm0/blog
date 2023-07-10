@@ -22,9 +22,19 @@ export default {
     return {
       datas: [
         {
+          name: 'serviceWorker 实战',
+          url: '/page/list/serviceWorker.html',
+          date: '2023-07-07',
+        },
+        {
+          name: 'BFC 揭秘与应用',
+          url: '/page/list/bfc.html',
+          date: '2022-11-10',
+        },
+        {
           name: '快应用开发入门',
           url: '/page/list/quick_app.html',
-          date: '2022-05-011',
+          date: '2022-05-11',
         },
         {
           name: '我的前端一天',
