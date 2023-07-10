@@ -1,10 +1,10 @@
 ---
 sidebar: auto
-description: serviceWorker
+description: serviceWorker 实战
 head:
   - - meta
     - name: keywords
-      content: 前端一锅煮,Service Worker,service worker,serviceWorker
+      content: 前端一锅煮,serviceWorker 实战
 ---
 
 # serviceWorker 实战
