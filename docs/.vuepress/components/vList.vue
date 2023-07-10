@@ -22,6 +22,11 @@ export default {
     return {
       datas: [
         {
+          name: 'ts 被高估了',
+          url: '/page/list/ts.html',
+          date: '2023-07-10',
+        },
+        {
           name: 'serviceWorker 实战',
           url: '/page/list/serviceWorker.html',
           date: '2023-07-07',
