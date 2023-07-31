@@ -27,9 +27,9 @@ head:
 
 加缓存之后：浏览器非首次跳阅读器 -> 直接从缓存取资源 -> 渲染展示
 
-![4.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f2c06c7284ab453498832aeea8bba29a~tplv-k3u1fbpfcp-watermark.image?)
+![4.png](https://pic4.zhimg.com/80/v2-24d2b784e2d1d56b7bc9dc61faab340f_1440w.webp)
 
-![5.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b48a59f74e5d4a98b47675ee84e83a5c~tplv-k3u1fbpfcp-watermark.image?)
+![5.png](https://pic1.zhimg.com/80/v2-63577a8206ed2c8ef3f985d9a2705b18_1440w.webp)
 
 ## serviceWorker 介绍
 
@@ -71,9 +71,9 @@ HTTP 协议可以定义一个响应资源应该何时、如何被缓存以及缓
 
 后端接口返回对应相应头给到浏览器，浏览器根据相应规则去缓存对应资源
 
-![6.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a370a7336f8a4ca6a12b29757861708a~tplv-k3u1fbpfcp-watermark.image?)
+![6.png](https://pic2.zhimg.com/80/v2-59567d126d65d67a83a53c41160014b5_1440w.webp)
 
-![7.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/70bc379e3293408fb81ed8d4fbe3d355~tplv-k3u1fbpfcp-watermark.image?)
+![7.png](https://pic3.zhimg.com/80/v2-455674142119b1799e763643de45171e_1440w.webp)
 
 ### 浏览器自带缓存
 
@@ -81,7 +81,7 @@ HTTP 协议可以定义一个响应资源应该何时、如何被缓存以及缓
 
 重复刷新网站会直接用缓存资源
 
-![8.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/08655f00a62b40c9acf7645037241b0f~tplv-k3u1fbpfcp-watermark.image?)
+![8.png](https://pic4.zhimg.com/80/v2-0d750312425cc4ed846cc33a212ac8cb_1440w.webp)
 
 ### 为什么用 serviceWorker
 
@@ -96,7 +96,7 @@ HTTP 协议可以定义一个响应资源应该何时、如何被缓存以及缓
 
 ## serviceWorker 怎么用
 
-![9.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9d2355f733554a22bc4c20809ef43d35~tplv-k3u1fbpfcp-watermark.image?)
+![9.png](https://pic2.zhimg.com/80/v2-1df066e43554658cf5e0bf9b239e5d3d_1440w.webp)
 
 ### serviceWorker 作用域
 
@@ -150,7 +150,7 @@ http://127.0.0.1:8005/read serviceWorker http://127.0.0.1:8005/
 
 http://127.0.0.1:8005 serviceWorker http://127.0.0.1:8005/
 
-![15.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/38073935856249c78f9466c45f6cba8d~tplv-k3u1fbpfcp-watermark.image?)
+![15.png](https://pic1.zhimg.com/80/v2-5df6a6d67bae67f3b40ec3d70f371c60_1440w.webp)
 
 ### 作用域污染
 
@@ -160,7 +160,7 @@ Devtools 中，可以手动清除指定的 serviceWorker，在线上环境已经
 
 可以先注销掉错误的 serviceWorker 再注册新的。
 
-![16.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/72e52e4db45f4d108970cc74e34c31b2~tplv-k3u1fbpfcp-watermark.image?)
+![16.png](https://pic3.zhimg.com/80/v2-f5394a839b99a378a24e3afb7627c7a2_1440w.webp)
 
 ### 为什么放在 window.onload 内执行？
 
@@ -181,31 +181,31 @@ Devtools 中，可以手动清除指定的 serviceWorker，在线上环境已经
 
 ### 安装激活
 
-![11.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0e238d0e10b74fddbfe545e8fd334aa7~tplv-k3u1fbpfcp-watermark.image?)
+![11.png](https://pic3.zhimg.com/80/v2-bfbad3a9df7b6dc89a78a6bea8a8dff2_1440w.webp)
 
 ### 拦截请求
 
-![12.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/11642bc23ad54588a4bc4e55ca62e065~tplv-k3u1fbpfcp-watermark.image?)
+![12.png](https://pic1.zhimg.com/80/v2-252c3650c6128a70ba85853d70f964d0_1440w.webp)
 
 ### 缓存策略
 
-![13.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b81796e4204b423e9fcfb1720c96850a~tplv-k3u1fbpfcp-watermark.image?)
+![13.png](https://pic4.zhimg.com/80/v2-b9522602ba11f06d2c5827981b1445af_1440w.webp)
 
 ### fetch 请求拦截
 
-![14.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9544eab6d10347c3b1aea9ff128175b7~tplv-k3u1fbpfcp-watermark.image?)
+![14.png](https://pic1.zhimg.com/80/v2-4b6a22b82669c035d661045902f474bc_1440w.webp)
 
 ### serviceWorker
 
-![1.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/42a3be7a9d5e438db0f8a7a7a3061795~tplv-k3u1fbpfcp-watermark.image?)
+![1.png](https://pic2.zhimg.com/80/v2-182f083320faea199592480d6404e0f5_1440w.webp)
 
 ### cache 缓存
 
-![2.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/478f69d15b304067a417014cee675c11~tplv-k3u1fbpfcp-watermark.image?)
+![2.png](https://pic3.zhimg.com/80/v2-60a72599e7c27f44edf380b2aca28dba_1440w.webp)
 
 ### 缓存的资源
 
-![3.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fa3fa95ee6374239948f25a242826df8~tplv-k3u1fbpfcp-watermark.image?)
+![3.png](https://pic1.zhimg.com/80/v2-4a006934ba6e10d0653e48593d3961c8_1440w.webp)
 
 ### serviceWorker 怎么更新
 
@@ -233,7 +233,7 @@ Devtools 中，可以手动清除指定的 serviceWorker，在线上环境已经
 
 在 activate 事件回调被调用时，它把即将被激活的 worker 线程状态延迟为 activating 状态，直到传递的 Promise 被成功地 resolve。作用：删除过期的缓存条目。
 
-![17.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/962b459c91274229966db57e3dbb51e9~tplv-k3u1fbpfcp-watermark.image?)
+![17.png](https://pic2.zhimg.com/80/v2-a6b116167fa9a8faad7fa4dea71d6b8d_1440w.webp)
 
 ### skipWaiting()
 

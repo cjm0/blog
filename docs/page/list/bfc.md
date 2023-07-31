@@ -31,7 +31,7 @@ A block formatting context contains everything inside of the element creating it
 
 每一个BFC区域都是独立互不影响的！(这点不太好理解，但是后续会使用代码验证)
 
-![BFC](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ead1a0939aa148c8a50992b5083d8e5c~tplv-k3u1fbpfcp-watermark.image?)
+![BFC](https://pic2.zhimg.com/80/v2-00cca0e24398f8ed5f9d941601db0035_1440w.webp)
 
 ## 怎么触发 BFC ？
 
@@ -67,41 +67,41 @@ display: flow-root (无副作用，兼容性还不够)
 
 问题：两个兄弟元素之间垂直方向的 margin 是合并的
 
-![垂直外边距重合问题](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/89002258a4614bb78fd64fde1944b202~tplv-k3u1fbpfcp-watermark.image?)
+![垂直外边距重合问题](https://pic3.zhimg.com/80/v2-e499e441066bf4f7ecf110a8f59b8de2_1440w.webp)
 
 解决：各自加上 BFC 后，因为 BFC 互相独立性质，里面不会影响到外面
 
-![垂直外边距重合解决](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/555018eafe9d4d2c92321e549cd6083e~tplv-k3u1fbpfcp-watermark.image?)
+![垂直外边距重合解决](https://pic2.zhimg.com/80/v2-280f75295e67b936e1660ad643c29789_1440w.webp)
 
 ### 垂直外边距包含塌陷问题
 
 问题：父子嵌套元素在垂直方向的 margin 结合在一起的，并取其中最大的值 50px
 
-![垂直外边距包含塌陷问题](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/798f992212ed40658a38b67b36674e00~tplv-k3u1fbpfcp-watermark.image?)
+![垂直外边距包含塌陷问题](https://pic1.zhimg.com/80/v2-6962d7ddcd4da4526a065c3ddf549208_1440w.webp)
 
 解决：父标签加上 BFC 后，因为 BFC 的独立性，里面不会影响到外面了
 
-![垂直外边距包含塌陷解决](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/695f227d516e4753a2125575e4b3e6be~tplv-k3u1fbpfcp-watermark.image?)
+![垂直外边距包含塌陷解决](https://pic2.zhimg.com/80/v2-31b3c0b5536fc35b74795ab08d9a86ed_1440w.webp)
 
 ### 浮动元素父标签高度塌陷问题
 
 问题：父元素未设定高度，子元素全部浮动，父元素高度为 0
 
-![浮动元素父标签高度塌陷问题](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/425ef5454b4a46e6a7d5af3688bfb3f9~tplv-k3u1fbpfcp-watermark.image?)
+![浮动元素父标签高度塌陷问题](https://pic3.zhimg.com/80/v2-12db38788cb169f2812ccf3d91e169b2_1440w.webp)
 
 解决：父元素加 BFC，将所有的浮动元素包裹起来
 
-![浮动元素父标签高度塌陷解决](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fe8e77d35511459596b154efee865a73~tplv-k3u1fbpfcp-watermark.image?)
+![浮动元素父标签高度塌陷解决](https://pic3.zhimg.com/80/v2-a87941521df051229be0a10348afe69e_1440w.webp)
 
 ### 标准流元素被浮动元素覆盖问题
 
 问题：红色盒子浮动，child2 绿色盒子是标准流，红色盒子覆盖了 child2 绿色盒子
 
-![标准流元素被浮动元素覆盖问题](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f616e1dee06d46e4b85c4302522c0f26~tplv-k3u1fbpfcp-watermark.image?)
+![标准流元素被浮动元素覆盖问题](https://pic2.zhimg.com/80/v2-82433ad7877c9f30a35cae36f891edf5_1440w.webp)
 
 解决：绿色盒子加 BFC，现在红色、绿色盒子都是 BFC，互相独立
 
-![标准流元素被浮动元素覆盖解决](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/79b47538b1c64fd9a1b5ed42ebfe8bee~tplv-k3u1fbpfcp-watermark.image?)
+![标准流元素被浮动元素覆盖解决](https://pic3.zhimg.com/80/v2-1234802e762b5f62ec783de0fadbbb16_1440w.webp)
 
 ## BFC 总结
 

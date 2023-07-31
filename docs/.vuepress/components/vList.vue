@@ -22,6 +22,11 @@ export default {
     return {
       datas: [
         {
+          name: '阅读器排版引擎',
+          url: '/page/list/read.html',
+          date: '2023-07-31',
+        },
+        {
           name: 'ts 被高估了',
           url: '/page/list/ts.html',
           date: '2023-07-10',
