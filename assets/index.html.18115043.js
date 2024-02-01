@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as a,b as e,d as i}from"./app.fe41e084.js";const r={},c=e("h2",{id:"this-is-temp",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#this-is-temp","aria-hidden":"true"},"#"),i(" this is temp")],-1),n=[c];function o(d,_){return s(),a("div",null,n)}var l=t(r,[["render",o],["__file","index.html.vue"]]);export{l as default};
