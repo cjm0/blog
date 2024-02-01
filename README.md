@@ -17,6 +17,10 @@
 
 #### 文章列表
 
+- [serviceWorker 更新方案](https://cjm0.github.io/blog/page/list/updateService.html)
+- [你不知道的阅读器排版引擎](https://cjm0.github.io/blog/page/list/read.html)
+- [快应用开发入门](https://cjm0.github.io/blog/page/list/quick_app.html)
+- [从零配置前端开发环境-Mac](https://cjm0.github.io/blog/page/list/mac.html)
 - [二论命名之下划线](https://cjm0.github.io/blog/page/list/underline.html)
 - [Mac 设置开机启动](https://cjm0.github.io/blog/page/list/maclist.html)
 - [Node.js 性能优化](https://cjm0.github.io/blog/page/node/perf.html)

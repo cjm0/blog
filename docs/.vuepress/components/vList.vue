@@ -22,6 +22,11 @@ export default {
     return {
       datas: [
         {
+          name: 'serviceWorker 更新方案',
+          url: '/page/list/updateService.html',
+          date: '2024-01-18',
+        },
+        {
           name: '你不知道的阅读器排版引擎~',
           url: '/page/list/read.html',
           date: '2023-07-31',
