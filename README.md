@@ -55,9 +55,11 @@ yarn && yarn dev
 
 #### 关于我
 
-- [知乎-@前端一锅煮](https://www.zhihu.com/people/qian-duan-yiguo-zhu/activities)
+知乎：[前端一锅煮](https://www.zhihu.com/people/qian-duan-yiguo-zhu/activities)
 
-- [掘金-@前端一锅煮](https://segmentfault.com/u/daqianduan)
+掘金：[前端一锅煮](https://juejin.cn/user/1855631356867646/posts)
+
+Github：[前端一锅煮](https://github.com/cjm0)
 
 #### License
 
