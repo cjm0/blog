@@ -11,7 +11,7 @@
       <span class="btn" @click="prev" :class="prevDisable ? 'disable' : ''">上一页</span>
       <span class="btn" @click="next" :class="nextDisable ? 'disable' : ''">下一页</span>
       <span class="btn">{{ curPage }}</span>
-      <span class="btn">共 {{ totalPage }} 页</span>
+      <span class="btn btn_last">共 {{ totalPage }} 页 {{ datas.length }}篇</span>
     </div>
   </div>
 </template>
@@ -21,6 +21,16 @@ export default {
   data() {
     return {
       datas: [
+        {
+          name: '华为浏览器小说',
+          url: '/page/yw/hb.html',
+          date: '2024-06-11',
+        },
+        {
+          name: '可乐快应用总结',
+          url: '/page/yw/cola.html',
+          date: '2024-05-03',
+        },
         {
           name: 'serviceWorker 更新方案',
           url: '/page/list/updateService.html',
@@ -372,6 +382,9 @@ export default {
       font-size: 14px;
       color: #3eaf7c;
       margin-right: 10px;
+    }
+    .btn_last{
+      margin-left: 10px;
     }
     .disable {
       color: #666;
