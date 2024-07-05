@@ -27,9 +27,11 @@ Mac M1芯片电脑开机密码重置方法：
 
 1. 应用商店下载部分常用免费软件，如果连不上就算了
 
-2. [Mac 开发配置入门文档](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/index.html)（先粗略瞄一眼）
+2. 先粗略瞄一眼：[Mac 开发配置入门文档](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/index.html)
 
-3. **最好的最详细的安全免费破解 mac 软件下载平台** [MacWk](https://www.macwk.com/soft/development/p1?cid=39,16,40)
+3. **mac 软件免费下载平台**
+    - [MAC 青桔](https://www.macqj.com/)
+    - [MacWk](https://macwk.com.cn/soft/all/p1)
 
 4. [腾讯柠檬](https://lemon.qq.com/lab)（供参考）
 
@@ -37,21 +39,21 @@ Mac M1芯片电脑开机密码重置方法：
 
 ## 软件安装
 
-### 安装以下 28 款软件
+### 安装以下 29 款软件
 
-应用商店或者百度搜索官网下载 12 款：
+应用商店或者百度搜索官网下载 13 款：
 
-- 谷歌浏览器、火狐浏览器、向日葵远程控制
+- 谷歌浏览器、火狐浏览器、Microsoft Edge、Mac向日葵远程控制
 
 - 微信、QQ、企业微信、微信开发者工具、HBuilderX、腾讯会议
 
 - ApiPost、Robo 3T、vscode
 
-MacWk 平台下载 16 款：
+MacWk 平台下载 14 款：
 
 - XMind、Sketch、Axure、Ps、Microsoft Word 套件
 
-- PPDuck-图片保真压缩、ColorSnapper2-吸颜色、iShot-截图
+- PPDuck-图片保真压缩、iShot-截图
 
 - Sourcetree、SnailSVN、SwitchHosts-修改 host、CheatSheet-查看快捷命令
 
@@ -59,104 +61,180 @@ MacWk 平台下载 16 款：
 
 不要用百度网盘，选择天翼云盘下载速度会很快
 
+官网下载 2：
+
+- [快应用开发工具](https://doc.quickapp.cn/ide/new.html)
+
+- [百度网盘](https://pan.baidu.com/download?_at_=1720063213588#pan)
+
+### iShot
+
+快捷键设置：
+
+- 取色：cmd + h
+- 截图：cmd + 2
+- 延时全屏截图：cmd + 3
+- 开始/停止录屏：cmd + 4
+- 暂停/恢复录屏：cmd + 5
+- 开始录音：cmd + 6
+
+### SwitchHosts
+
+- base
+```bash
+127.0.0.1 localhost
+255.255.255.255	broadcasthost
+::1	localhost
+127.0.0.1 license.sublimehq.com ajax.googleapis.com
+
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+
+# gitlab git.uthealth.com.cn
+120.92.63.101 git.uthealth.com.cn
+```
+
+- github
+```bash
+  https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts
+  1小时
+```
+
+![SwitchHosts](../img/mac/switch_hosts.png)
+
+### ApiPost
+
+- 账号：1293004002@qq.com
+- 密码：xxxxxxxxx
+
 ### 谷歌浏览器配置
 
 书签：从原电脑下载书签然后传给新电脑，或者账号登录同步
 
-扩展程序：草料二维码、Proxy SwitchyOmega、Vue.js devtools、React Developer Tools、谷歌访问助手（应用商店连不上就百度搜对应扩展程序）
+![书签](../img/mac/bookmark.png)
 
-### vscode 配置
+扩展程序：
+- 草料二维码
+- 沉浸式翻译
+- Proxy SwitchyOmega
+- Vue.js devtools
+- React Developer Tools
+- FeHelper(前端助手)
+- ModHeader - Modify HTTP headers
 
-- 插件安装 27 个
+![Proxy](../img/mac/1.png)
+![Proxy](../img/mac/2.png)
+![FeHelper](../img/mac/3.png)
+![ModHeader](../img/mac/4.png)
 
-Debugger for Chrome、Apollo GraphQL、Auto Rename Tag 3
+## vscode 配置
 
-Chinese (Simplified) Language Pack for Visual Studio Code 1
+### 安装插件 32 个
 
-Code Runner、EditorConfig for Visual Studio Code 2
+1. any-rule：正则大全
+2. Apollo GraphQL：GraphQL 支持
+3. Auto Rename Tag：自动重命名配对的 HTML/XML 标记
+4. Chinese (Simplified) (简体中文)
+5. Code Runner：代码运行程序
+6. Docker：Docker 扩展，可生成、管理和部署容器化应用程序
+7. EditorConfig for VS Code VS Code：查找 .editorconfig 的设置覆盖用户/工作区设置
+8. ESLint eslint：规则检查
+9. filesize：显示焦点文件的大小
+10. GitLens — Supercharge：Git 增强
+11. Git History：Git 历史记录
+12. HTML CSS Support：HTML CSS 支持
+13. Image preview：图像预览
+14. Import Cost：显示导入包的大小
+15. IntelliSense for CSS class names in HTML：HTML CSS 类名补全
+16. JavaScript (ES6) code snippets：ES6 代码片段
+17. JavaScript Debugger (Nightly)：JavaScript 调试器
+18. JSON Tools：json 格式化和压缩 Ctrl(Cmd)+Alt+M for JSON pretty、Alt+M for JSON minify json
+19. JSON Viewer：json 查看器
+20. koroFileHeader：生成文件头部注释和函数注释
+21. Markdown Preview Enhanced：Markdown 预览增强版
+22. Monokai Themes：Monokai 主题
+23. open in browser：浏览器或应用程序中打开当前文件
+24. Path Intellisense：自动完成文件名
+25. Prettier - Code formatter：代码格式化程序
+26. Prettify JSON：美化 JSON
+27. Todo Tree：显示 TODO、FIXME 等注释标签
+28. Vitest：Vite 原生测试框架
+29. vscode-icons：vscode 图标
+30. Vue - Official：vue 支持
+31. Vue 3 Snippets：Vue 3 片段
+32. Baidu Comate (Gitee版)：百度智能 AI 编程插件
 
-ESLint、filesize、HTML Snippets、Image Preview、Import Cost 5
+### 关闭的插件
 
-JavaScript (ES6) snippets、JSON Tools、JSON Viewer、koroFileHeader 4
+1. Vetur：vue2 支持
+2. Draw.io Integration：vscode Draw.io 集成
+3. Office Viewer(Markdown Editor)：支持预览常见的办公文件格式
+4. markdownlint：Markdown 样式检查
+5. Minify：压缩 js css html
+6. Dash：API 文档浏览器和代码片段管理器
+7. View Node Package：直接从 Code 打开 Node 包存储库/文档
+8. Sass/Less/Stylus/Pug/Jade/Typescript/Javascript Compile Hero Pro：编译 ts、tsx、scss、less、stylus、jade、pug 和 es6+。
 
-Minify、Monokai Theme、npm (npm support for VS Code) 3
+### 设置调整
 
-Open in Browser、Path Intellisense、Prettier - Code formatter 3
+- Auto Save - onFocusChange
+- Tab Size - 2
+- Cursor Style - line-thin
+- Word Wrap - on
+- Auto Indent - advanced 粘贴保留格式
+- Folding Strategy - indentation 按空格缩进收起
+- Guides: Highlight Active Indentation - false 控制是否突出显示编辑器中活动的缩进参考线。
+- Match Brackets - never 突出显示匹配的括号
+- Max Tokenization Line Length - 100000
+- Sticky Scroll: Enabled - false 关闭粘性滚动
+- Cursor Blinking - smooth
+- Minimap: Enabled - false
+- Minimap: Max Column - 40
+- Files: Default Language - html 新建文件时文件格式
+- Trim Trailing Whitespace - true 文件保存时去除末尾的空格
+- Color Theme - Monokai
+- Icon Theme - VSCode Icons
+- Tree: Indent - 10
+- Tree: Render Indent Guides - none
+- Zoom Level - 1
+- Auto Reveal - false 选中文件不自动展开
+- Compact Folders - false 折叠空白文件夹
+- Confirm Delete - false
+- Confirm Drag And Drop - false
+- Follow Symlinks - false 修复 vscode 造成 rg.exe内存占用过大的问题
+- Automation Profile: Osx
+- Integrated: Cwd - /Users/cjm/
+- Default Profile: zsh
+- Page Size - 0
+- Trust: Untrusted Files - open
+- Auto Navigate Next Conflict: Enabled - true
+- "css.enabledLanguages": [ "html", "vue", "typescript"]
+- Exclude Languages - markdown
+- Include Languages - 全配置
+- Trigger Expansion On Tab - true
+- Autorefresh - false
+- Validate: Scripts - false
+- Gutterpreview: Image Preview Max Height - 2000
+- Gutterpreview: Image Preview Max Width - 2000
+- Prettier: Semi - false
+- Prettier: Single Quote - true
+- Save All Files Before Run - true
+- Quote Style - single
+- Surveys: Enabled - false
+- Hide Explorer Arrows - true
+- Auto Insert: Dot Value - true
+- Dont Show New Version Message - true
+- Telemetry Level - off
+- git.enabled: false 修复 vscode 造成 git.exe 内存占用过大的问题
+- git.autorefresh: false
+- Code Lens - true：打开 AI 提示 图
+- Render Control Characters - true
+- Guides: Highlight Active Indentation - false 控制是否突出显示编辑器中活动的缩进参考线
+- Unicode Highlight: Ambiguous Characters - false
 
-Prettify JSON、Todo Tree、Vetur、View Node Package、vscode-icons 5
-
-Sass/Less/Stylus/Pug/Jade/Typescript/Javascript Compile Hero Pro 1
-
-- 设置调整
-
-打开新文件而不是覆盖 Workbench enablePreview - true
-
-选中文件不自动展开 Auto Reveal - false
-
-comd + n 新建文件时文件格式 defaultLanguage - html
-
-文件保存时去除末尾的空格 Trim Trailing Whitespace - true
-
-修复 vscode 造成 git.exe 内存占用过大的问题
-  git.enabled: false
-  git.autorefresh: false
-
-折叠空白文件夹 Compact Folders - false
-
-Trigger Expansion On Tab - true
-
-includeLanguages - "javascript": "javascriptreact"
-
-其他设置
-
-```js
-  Auto Save - onFocusChange
-  Tab Size - 2
-  Cursor Blinking - smooth
-  Cursor Style - line-thin
-  Word Wrap - on
-  Auto Indent - advanced 粘贴保留格式
-  Folding Strategy - indentation 按空格缩进收起
-  Highlight Active Indent Guide - false
-  Match Brackets - never 突出显示匹配的括号
-  Max Tokenization Line Length - 100000
-  Render Control Characters - true
-  Render Whitespace - none
-
-  Tree: Indent - 10
-  Tree: Render Indent Guides - none
-  Initial Indent - true
-  Use Tabs - true
-
-  Minimap: Enabled - false
-  Update Imports On File Move: Enabled - never
-  Surveys: Enabled - false
-  Breadcrumbs: Enabled - true
-  Enable Crash Reporter - false
-  Enable Telemetry - false
-  Eslint: Enable - false
-
-  Max Column - 40
-  Activity Bar: Visible - true
-  Side Bar: Location - left
-  Confirm Delete - false
-  Confirm Drag And Drop - false
-  Integrated: Split Cwd - initial
-  Page Size - 0
-  Show Scan Mode Button - false
-  Package Manager - yarn
-  Autorefresh - false
-  Validate: Scripts - false
-  Prettier: Semi - false
-  Prettier: Single Quote - true
-  Quote Style - single
-  Default Formatter: HTML - prettyhtml
-  Default Formatter: JS - prettier-eslint
-  Save File Before Run - true
-  Ignore Project Warning - true
-  Dont Show New Version Message - true
-  JS Official - true
-```
+- Vue › Update Imports On File Move: Enabled - false
+- JavaScript › Update Imports On File Move: Enabled - never 启用或禁用在 VS Code 中重命名或移动文件时自动更新导入路径的功能。
 
 ### 终端安装
 
@@ -176,13 +254,10 @@ includeLanguages - "javascript": "javascriptreact"
   homebrew-core.git:
     cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
     git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
-  替换 Homebrew Bottles 源
+  替换 Homebrew Bottles 源：
     cd ~
     echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
     source ~/.bash_profile
-
-brew install git
-brew install nginx
 ```
 
 2. xcode-select 安装
@@ -197,7 +272,21 @@ sudo rm -rf $(xcode-select --print-path)
 rm -rf /Library/Developer/CommandLineTools
 ```
 
-3. nvm 安装
+3. 工具安装
+
+git 下载：
+```bash
+  brew install git
+  git --version
+```
+
+nginx 下载：
+```bash
+  brew install nginx
+  nginx -v
+```
+
+4. nvm 安装
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
@@ -211,23 +300,28 @@ vim ~/.bash_profile 输入提示的三行
 
 source ~/.bash_profile
 
-nvm 换源：export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+nvm --version
+
+nvm 换源：export NVM_NODEJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/node
 新电脑默认全局安装了 v16 版本的，要先卸载掉
 
-nvm install v12.22.6         安装指定版本
-nvm use v12.22.6             切换 node 版本
-nvm alias default v12.22.6   设置默认版本
+安装 node
+  nvm install v16.20.2         安装指定版本
+  nvm use v16.20.2             切换 node 版本
+  nvm alias default v16.20.2   设置默认版本
+  npm config get registry // 查看 npm 源
+  npm config set registry https://registry.npmmirror.com // 用淘宝源
 
 安装 cnpm
-  npm install -g cnpm --registry=https://registry.npm.taobao.org
+  npm install -g cnpm --registry=https://registry.npmmirror.com
   cnpm config get registry // 查看 cnpm 源
-  cnpm set registry https://registry.npm.taobao.org // 用淘宝源
+  cnpm set registry https://registry.npmmirror.com // 用淘宝源
 
 下载 pm2
   cnpm install -g pm2
 ```
 
-4. zsh 安装 oh-my-zsh 插件
+5. zsh 安装 oh-my-zsh 插件
 
 ```bash
 zsh 安装完成之后退出当前会话重新打开一个终端窗口
@@ -255,6 +349,9 @@ Mac 安装 omyzsh 后，terminal init 的时候并不会执行 ~/.bash_profile�
 .bash_profile 变量参考：
 
 ```bash
+# homebrew
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+
 # nvm path
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -270,19 +367,16 @@ export PATH="/usr/local/mongodb/bin:$PATH"
 # redis path
 export PATH="/usr/local/opt/redis/bin:$PATH"
 
-# homebrew
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
-
 # Created by mirror-config-china
-export IOJS_ORG_MIRROR=https://npm.taobao.org/mirrors/iojs
-export NODIST_IOJS_MIRROR=https://npm.taobao.org/mirrors/iojs
-export NVM_IOJS_ORG_MIRROR=https://npm.taobao.org/mirrors/iojs
-export NVMW_IOJS_ORG_MIRROR=https://npm.taobao.org/mirrors/iojs
+export IOJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/iojs
+export NODIST_IOJS_MIRROR=https://registry.npmmirror.com/mirrors/iojs
+export NVM_IOJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/iojs
+export NVMW_IOJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/iojs
 
-export NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
-export NODIST_NODE_MIRROR=https://npm.taobao.org/mirrors/node
-export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
-export NVMW_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+export NODEJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/node
+export NODIST_NODE_MIRROR=https://registry.npmmirror.com/mirrors/node
+export NVM_NODEJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/node
+export NVMW_NODEJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/node
 
-export NVMW_NPM_MIRROR=https://npm.taobao.org/mirrors/npm
+export NVMW_NPM_MIRROR=https://registry.npmmirror.com/mirrors/npm
 ```
