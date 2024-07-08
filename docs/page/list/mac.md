@@ -130,7 +130,7 @@ MacWk 平台下载 14 款：
 
 ## vscode 配置
 
-### 安装插件 32 个
+### 安装插件 34 个
 
 1. any-rule：正则大全
 2. Apollo GraphQL：GraphQL 支持
@@ -163,7 +163,9 @@ MacWk 平台下载 14 款：
 29. vscode-icons：vscode 图标
 30. Vue - Official：vue 支持
 31. Vue 3 Snippets：Vue 3 片段
-32. Baidu Comate (Gitee版)：百度智能 AI 编程插件
+32. CSS Peek 标签上查看 css 样式
+33. CodeSnap 代码截图
+34. Baidu Comate (Gitee版)：百度智能 AI 编程插件
 
 ### 关闭的插件
 
