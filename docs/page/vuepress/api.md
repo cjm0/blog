@@ -247,8 +247,8 @@ pageClass: custom-page-class // 为当前页面添加额外的类名
 ```yaml
 ---
 home: true // 设定该页面是首页还是普通页面
-heroImage: /user.jpeg
-heroImageDark: /user.jpeg
+heroImage: /img/user.jpeg
+heroImageDark: /img/user.jpeg
 
 heroAlt: '' // 首页图片的 alt 属性，不设置，则默认使用 heroText
 heroText: '' // 首页的大标题，不设置则默认使用站点 title

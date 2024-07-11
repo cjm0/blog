@@ -48,7 +48,7 @@ export default defineUserConfig({
   port: 3009,
 
   head: [ // 添加链接 pwa 的 manifest 如果需要
-    ['link', { rel: 'icon', href: '/logo.jpg' }],
+    ['link', { rel: 'icon', href: '/img/logo.jpg' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
@@ -110,8 +110,8 @@ export default defineUserConfig({
     colorMode: 'auto', // 'auto' | 'light' | 'dark' 默认颜色模式
     colorModeSwitch: true, // 如果设置为 true ，将会在导航栏展示一个切换颜色模式的按钮
     home: '/', // 首页的路径
-    logo: 'logo.jpg', // Logo 图片将会显示在导航栏的左端
-    logoDark: 'logo.jpg', // null 可以在夜间模式下禁用 Logo，在夜间模式中使用的 Logo 图片的 URL
+    logo: '/img/logo.jpg', // Logo 图片将会显示在导航栏的左端
+    logoDark: '/img/logo.jpg', // null 可以在夜间模式下禁用 Logo，在夜间模式中使用的 Logo 图片的 URL
 
     repo: 'https://github.com/cjm0/blog.git',
     repoLabel: 'Github', // 仓库链接 的文字

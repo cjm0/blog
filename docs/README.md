@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /user.jpeg
-heroImageDark: /user.jpeg
+heroImage: /img/user.jpeg
+heroImageDark: /img/user.jpeg
 pageClass: page_home
 
 head:

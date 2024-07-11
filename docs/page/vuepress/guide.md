@@ -97,10 +97,10 @@ Node.js v14.18.0+
 
 ``` md
 ---
-heroImage: /logo.jpg
+heroImage: /img/logo.jpg
 ---
 或
-![logo](/logo.jpg)
+![logo](/img/logo.jpg)
 ```
 
 6. img 文件
@@ -115,7 +115,7 @@ heroImage: /logo.jpg
 
 如果你的网站会被部署到一个**非根路径**，你将需要在 `.vuepress/config.ts` 中设置 `base`。比如 `http://blog.bigqianduan.top/bar/`，那么 `base` 的值就应该被设置为 `"/bar/"` (应当总是以斜杠开始，并以斜杠结束)。
 
-此时引用 public 文件夹资源路径：`/bar/logo.jpg`。或者使用 VuePress 内置的一个方法 `$withBase` （它被注入到了 Vue 的原型上）：
+此时引用 public 文件夹资源路径：`/bar/img/logo.jpg`。或者使用 VuePress 内置的一个方法 `$withBase` （它被注入到了 Vue 的原型上）：
 
 ``` md
 <img :src="$withBase('/images/hero.png')" alt="VuePress Logo">
