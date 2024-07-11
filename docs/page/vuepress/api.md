@@ -213,7 +213,7 @@ const line3 = 'This is line 3'
 
 ### 目录
 
-如果你想要把当前页面的目录添加到 Markdown 内容中，你可以使用 [[toc]] 语法。配置参考： [markdown.toc](https://v2.vuepress.vuejs.org/zh/reference/config.html#markdown-toc) 选项来配置。
+如果你想要把当前页面的目录添加到 Markdown 内容中，你可以使用 [[toc]] 语法。配置参考： [markdown.toc](https://vuepress.vuejs.org/zh/reference/config.html#markdown-toc) 选项来配置。
 
 ```
 [[toc]]

@@ -10,15 +10,15 @@ head:
 
 ## 前言
 
-[VuePress2](https://v2.vuepress.vuejs.org/zh/guide/) 是一个以 Markdown 为中心的静态网站生成器。你可以使用 Markdown 来书写内容（如文档、博客等），然后 VuePress 会帮助你生成一个静态网站来展示它们。
+[VuePress2](https://vuepress.vuejs.org/zh/guide/introduction.html) 是一个以 Markdown 为中心的静态网站生成器。你可以使用 Markdown 来书写内容（如文档、博客等），然后 VuePress 会帮助你生成一个静态网站来展示它们。
 
 每一个由 VuePress 生成的页面都带有预渲染好的 HTML，也因此具有非常好的加载性能和搜索引擎优化（SEO）。同时，一旦页面被加载，Vue 将接管这些静态内容，并将其转换成一个完整的单页应用（SPA），其他的页面则会只在用户浏览到的时候才按需加载。
 
 VuePress 诞生的初衷是为了支持 Vue.js 及其子项目的文档需求，但是现在它已经在帮助大量用户构建他们的文档、博客和其他静态网站。
 
-[Vuepress2 官方文档](https://v2.vuepress.vuejs.org/zh/guide)
+[Vuepress2 官方文档](https://vuepress.vuejs.org/zh/guide/introduction.html)
 
-[github](https://github.com/vuepress/vuepress-next)
+[github](https://github.com/vuepress/core)
 
 ## 快速开始
 

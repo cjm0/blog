@@ -165,7 +165,7 @@ MacWk 平台下载 14 款：
 31. Vue 3 Snippets：Vue 3 片段
 32. CSS Peek 标签上查看 css 样式
 33. CodeSnap 代码截图
-34. Baidu Comate (Gitee版)：百度智能 AI 编程插件
+34. Baidu Comate：百度智能 AI 编程插件
 
 ### 关闭的插件
 
@@ -211,6 +211,7 @@ MacWk 平台下载 14 款：
 - Page Size - 0
 - Trust: Untrusted Files - open
 - Auto Navigate Next Conflict: Enabled - true
+- Container Padding - 1em
 - "css.enabledLanguages": [ "html", "vue", "typescript"]
 - Exclude Languages - markdown
 - Include Languages - 全配置
@@ -234,9 +235,188 @@ MacWk 平台下载 14 款：
 - Render Control Characters - true
 - Guides: Highlight Active Indentation - false 控制是否突出显示编辑器中活动的缩进参考线
 - Unicode Highlight: Ambiguous Characters - false
-
 - Vue › Update Imports On File Move: Enabled - false
 - JavaScript › Update Imports On File Move: Enabled - never 启用或禁用在 VS Code 中重命名或移动文件时自动更新导入路径的功能。
+
+### 用户代码片段
+
+```json
+  // global
+	"ad1": {
+		"prefix": "ad1",
+		"body": [
+			"过一个平凡无趣的人生实在太容易了，你可以不读书，不冒险，不运动，不写作，不外出，不折腾……但是，人生最后悔的事情就是：我本可以。",
+			"$1"
+		],
+		"description": "create a chinese"
+	},
+	"ad2": {
+		"prefix": "ad2",
+		"body": [
+			"Happiness is a way station between too much and too little.",
+			"$1"
+		],
+		"description": "create a english"
+	},
+```
+
+```json
+  // css
+  "flex1": {
+    "prefix": "flex1",
+    "body": [
+      "display: flex;",
+      "justify-content: center;",
+      "align-items: center;",
+      "$1"
+    ],
+    "description": "flex"
+  },
+  "sl1": {
+    "prefix": "sl1",
+    "body": [
+      "display: block;",
+      "white-space: nowrap;",
+      "text-overflow: ellipsis;",
+      "overflow: hidden;",
+      "$1"
+    ],
+    "description": "css single line ellipsis"
+  },
+  "bg1": {
+    "prefix": "bg1",
+    "body": [
+      "background:${1:#fff} url() 0 0 no-repeat;"
+    ],
+    "description": "background img"
+  }
+```
+
+```json
+  // js
+	"log1": {
+		"prefix": "log1",
+		"body": [
+			"console.log($1);"
+		],
+		"description": "Log output to console"
+	},
+	"if1": {
+		"prefix": "if1",
+		"body": [
+			"if ($1) {",
+			"  $2",
+			"}",
+		],
+		"description": "auto create a for"
+	},
+	"switch1": {
+		"prefix": "switch1",
+		"body": [
+			"switch(type$1) {",
+			"  case 1: {",
+			"    console.log('1');",
+			"    break;",
+			"  }",
+			"  default: {",
+			"    console.log('2');",
+			"  }",
+			"}",
+		],
+		"description": "auto create a switch"
+	},
+	"for1": {
+		"prefix": "for1",
+		"body": [
+			"for (let i$1 = 0, len = arr.length; i$1 < len; i$1++) {",
+			"  $2",
+			"}",
+		],
+		"description": "auto create a for"
+	},
+	"forEach1": {
+		"prefix": "forEach1",
+		"body": [
+			"forEach(v => {",
+			"  $1",
+			"})",
+		],
+		"description": "auto create a forEach and function"
+	},
+	"fn1": {
+		"prefix": "fn1",
+		"body": [
+			"() => {",
+			"  $1",
+			"}",
+		],
+		"description": "auto create a function"
+	},
+	"fn2": {
+		"prefix": "fn2",
+		"body": [
+			"function () {",
+			"  $1",
+			"}",
+		],
+		"description": "auto create a function"
+	},
+	"arr1": {
+		"prefix": "arr1",
+		"body": [
+			"let arr = [1, 2, 3, 4, 5];",
+			"$1",
+		],
+		"description": "auto create a [1, 2, 3, 4, 5]"
+	},
+	"obj1": {
+		"prefix": "obj1",
+		"body": [
+			"let obj = {",
+			"  name: '前端一锅煮',",
+			"  age: 20,",
+			"  time: Date.now()",
+			"}",
+			"$1",
+		],
+		"description": "auto create a obj"
+	},
+```
+
+```json
+  // html
+	"h51": {
+		"prefix": "h51",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"zh\">",
+			"  <head>",
+			"    <meta charset=\"utf-8\">",
+			"    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />",
+			"    <meta name=\"renderer\" content=\"webkit\" />",
+			"    <meta name=\"force-rendering\" content=\"webkit\" />",
+			"    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0,viewport-fit=cover\" />",
+			"    <title>Examples</title>",
+			"    <meta name=\"description\" content=\"\">",
+			"    <meta name=\"keywords\" content=\"\">",
+			"    <style>",
+			"      *{margin:0;padding:0;}",
+			"    </style>",
+			"  </head>",
+			"  <body>",
+			"    <div>",
+			"      ",
+			"    </div>",
+			"    <script src=\"http://libs.baidu.com/jquery/1.11.3/jquery.min.js\"></script>",
+			"    <script type=\"text/javascript\">",
+			"      $1",
+			"    </script>",
+			"  </body>",
+			"</html>"
+		],
+		"description": "a html file"
+	}
+```
 
 ### 终端安装
 

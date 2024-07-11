@@ -22,6 +22,11 @@ export default {
     return {
       datas: [
         {
+          name: '发现最好的 AI 工具',
+          url: '/page/yw/ai.html',
+          date: '2024-07-10',
+        },
+        {
           name: '华为浏览器小说',
           url: '/page/yw/hb.html',
           date: '2024-06-11',
