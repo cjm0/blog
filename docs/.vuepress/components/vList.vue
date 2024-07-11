@@ -22,7 +22,7 @@ export default {
     return {
       datas: [
         {
-          name: '发现最好的 AI 工具',
+          name: '发现最好的 AI',
           url: '/page/yw/ai.html',
           date: '2024-07-10',
         },

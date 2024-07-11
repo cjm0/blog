@@ -1,13 +1,13 @@
 ---
 sidebar: auto
-description: 发现最好的 AI 工具
+description: 发现最好的 AI
 head:
   - - meta
     - name: keywords
-      content: 前端一锅煮, 发现最好的 AI 工具
+      content: 前端一锅煮, 发现最好的 AI
 ---
 
-# 发现最好的 AI 工具
+# 发现最好的 AI
 
 ## AI 工具大测评（国产）
 
@@ -15,7 +15,7 @@ head:
 
 测评选取：小红书搜 AI 工具相关文章，统计出现次数，结合网站月访问量，综合选取前 8 个工具做测评。
 
-![ai 工具排行](/img/ai/1.png)
+![ai 工具排行](../img/ai/1.png)
 
 八款测评目标：
 
@@ -41,8 +41,8 @@ head:
 
 ### 回答
 
-![](/img/ai/draw1.png)
-![](/img/ai/draw2.png)
+![](../img/ai/draw1.png)
+![](../img/ai/draw2.png)
 
 分析
 
@@ -61,7 +61,7 @@ head:
 
 2. 经实际体验，最佳在线流程图绘制工具是：[Diagrams](https://app.diagrams.net) https://app.diagrams.net
 
-![](/img/ai/draw.png)
+![](../img/ai/draw.png)
 
 ### 问题 - vue、react diff 更新原理
 
@@ -71,8 +71,8 @@ head:
 
 ### 回答
 
-![](/img/ai/diff1.png)
-![](/img/ai/diff2.png)
+![](../img/ai/diff1.png)
+![](../img/ai/diff2.png)
 
 ### 结果
 
@@ -95,8 +95,8 @@ head:
 
 ### 回答
 
-![](/img/ai/code_tool1.png)
-![](/img/ai/code_tool2.png)
+![](../img/ai/code_tool1.png)
+![](../img/ai/code_tool2.png)
 
 ### 结果
 
@@ -106,11 +106,11 @@ head:
 
 [stackblitz](https://stackblitz.com) https://stackblitz.com
 
-![](/img/ai/stackblitz.png)
+![](../img/ai/stackblitz.png)
 
 [playcode](https://playcode.io) https://playcode.io
 
-![](/img/ai/playcode.png)
+![](../img/ai/playcode.png)
 
 ### 问题 - 分析解释代码
 
@@ -139,8 +139,8 @@ commitPerformanceEvent() { // 上报性能指标
 
 ### 回答
 
-![](/img/ai/code1.png)
-![](/img/ai/code2.png)
+![](../img/ai/code1.png)
+![](../img/ai/code2.png)
 
 ### 结果
 
@@ -172,8 +172,8 @@ commitPerformanceEvent() { // 上报性能指标
 
 ### Kimi 实战
 
-![](/img/ai/q.png)
-![](/img/ai/kimi1.png)
+![](../img/ai/q.png)
+![](../img/ai/kimi1.png)
 
 ## AI 编程插件哪家强（VSCode）
 
@@ -302,7 +302,7 @@ AI 编程工具这么多，到底用哪个？
 
 AI 工具、导航网站、学习资料太多了，从里面精选出最好用的，给大家分享一下。
 
-![](/img/ai/tool.png)
+![](../img/ai/tool.png)
 
 ### 最全的 AI 工具集
 
@@ -310,8 +310,8 @@ AI 工具、导航网站、学习资料太多了，从里面精选出最好用�
 
 AI 工具分类细，每日 AI 快讯热闻，月访问量 110 万。
 
-![](/img/ai/bot/1.png)
-![](/img/ai/bot/2.png)
+![](../img/ai/bot/1.png)
+![](../img/ai/bot/2.png)
 
 ### 最大的 AI 导航网站
 
@@ -319,9 +319,9 @@ AI 工具分类细，每日 AI 快讯热闻，月访问量 110 万。
 
 最大的 AI 导航网站，有各种分类、榜单，月访问量 420 万。
 
-![](/img/ai/tool/t1.png)
-![](/img/ai/tool/t2.png)
-![](/img/ai/tool/t3.png)
+![](../img/ai/tool/t1.png)
+![](../img/ai/tool/t2.png)
+![](../img/ai/tool/t3.png)
 
 ### 最牛的 AI 知识库（五星推荐）
 
@@ -333,27 +333,27 @@ AI 工具分类细，每日 AI 快讯热闻，月访问量 110 万。
 
 AI 学习主要看这个就够了，**五星级超级推荐**。
 
-![](/img/ai/doc/doc1.png)
-![](/img/ai/doc/doc2.png)
-![](/img/ai/doc/doc3.png)
-![](/img/ai/doc/doc4.png)
-![](/img/ai/doc/doc5.png)
-![](/img/ai/doc/doc6.png)
-![](/img/ai/doc/doc7.png)
+![](../img/ai/doc/doc1.png)
+![](../img/ai/doc/doc2.png)
+![](../img/ai/doc/doc3.png)
+![](../img/ai/doc/doc4.png)
+![](../img/ai/doc/doc5.png)
+![](../img/ai/doc/doc6.png)
+![](../img/ai/doc/doc7.png)
 
 ### 怎么用 AI 搞副业赚钱？
 
 1. [AIbase 知识库](https://qqi2gjmnk4.feishu.cn/wiki/Do1kwF4t7in9XDkcpwIc4idHn9e) https://qqi2gjmnk4.feishu.cn/wiki/Do1kwF4t7in9XDkcpwIc4idHn9e
 
-![](/img/ai/money/1.png)
-![](/img/ai/money/2.png)
+![](../img/ai/money/1.png)
+![](../img/ai/money/2.png)
 
 2. [一起用AI](https://17yongai.com) https://17yongai.com
 
 [github 地址](https://github.com/bleedline/aimoneyhunter) https://github.com/bleedline/aimoneyhunter
 
-![](/img/ai/money/11.png)
-![](/img/ai/money/12.png)
+![](../img/ai/money/11.png)
+![](../img/ai/money/12.png)
 
 ## 总结
 
