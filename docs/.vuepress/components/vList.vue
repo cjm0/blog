@@ -22,9 +22,14 @@ export default {
     return {
       datas: [
         {
+          name: 'webview 退出拦截和通信',
+          url: '/page/yw/webview.html',
+          date: '2024-07-15',
+        },
+        {
           name: '发现最好的 AI',
           url: '/page/yw/ai.html',
-          date: '2024-07-10',
+          date: '2024-07-11',
         },
         {
           name: '华为浏览器小说',
