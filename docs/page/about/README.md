@@ -54,12 +54,18 @@ head:
 
 ## 欢迎联系
 
-微信联系：cjm360730
-
-微信公众号搜索：前端一锅煮
-
 知乎：[前端一锅煮](https://www.zhihu.com/people/qian-duan-yiguo-zhu/activities)
 
 掘金：[前端一锅煮](https://juejin.cn/user/1855631356867646/posts)
 
 Github：[前端一锅煮](https://github.com/cjm0)
+
+微信公众号搜索：前端一锅煮
+
+<img src="../img/me/me.jpg" alt="" style="width: 200px;">
+
+微信联系：cjm360730
+
+<img src="../img/me/wx.jpg" alt="" style="width: 200px;">
+
+
