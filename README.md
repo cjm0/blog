@@ -51,6 +51,9 @@ git clone https://github.com/cjm0/blog.git
 cd blog
 
 yarn && yarn dev
+
+# 发布
+sh github.sh
 ```
 
 #### 关于我
