@@ -13,17 +13,15 @@ Shell 脚本与 Windows/Dos 下的批处理相似，也就是用各类命令预�
 
 更明白地来说，shell script 就像早期 dos 年代的 [.bat](https://baike.baidu.com/item/%E6%89%B9%E5%A4%84%E7%90%86/1448600?fromtitle=.bat&fromid=6476412)，最简单的功能就是将许多指令汇整写一起，让使用者很容易地就能够一个操作执行多个命令，而 shell script 更是提供了数组，循环，条件以及逻辑判断等重要功能，让使用者可以直接以 shell 来写程序，而不必使用类似 C 程序语言等传统程序编写的语法。[语法参考](https://blog.csdn.net/qq_18297675/article/details/52693464)
 
-
 ## 执行命令
 
 方法一： `bash test.sh`
 
-方法二： 得先增加 test.sh 文件可执行权限
+方法二： 给 test.sh 文件增加可执行权限
 
 `chmod 755 test.sh`
 
 `./test.sh`
-
 
 ## 语法
 

@@ -23,22 +23,22 @@ export default {
       datas: [
         {
           name: 'webview 退出拦截和通信',
-          url: '/page/yw/webview.html',
+          url: '/page/app/webview.html',
           date: '2024-07-15',
         },
         {
           name: '发现最好的 AI',
-          url: '/page/yw/ai.html',
+          url: '/page/ai/ai.html',
           date: '2024-07-11',
         },
         {
           name: '华为浏览器小说',
-          url: '/page/yw/hb.html',
+          url: '/page/read/hb.html',
           date: '2024-06-11',
         },
         {
           name: '可乐快应用总结',
-          url: '/page/yw/cola.html',
+          url: '/page/app/cola.html',
           date: '2024-05-03',
         },
         {
@@ -48,7 +48,7 @@ export default {
         },
         {
           name: '你不知道的阅读器排版引擎~',
-          url: '/page/list/read.html',
+          url: '/page/read/read.html',
           date: '2023-07-31',
         },
         {
@@ -63,22 +63,22 @@ export default {
         },
         {
           name: 'BFC 揭秘与应用',
-          url: '/page/list/bfc.html',
+          url: '/page/css/bfc.html',
           date: '2022-11-10',
         },
         {
           name: '快应用开发入门',
-          url: '/page/list/quick_app.html',
+          url: '/page/app/quick_app.html',
           date: '2022-05-11',
         },
         {
           name: '我的前端一天',
-          url: '/page/list/feday.html',
+          url: '/page/life/feday.html',
           date: '2021-12-04',
         },
         {
           name: '从零配置前端开发环境-Mac',
-          url: '/page/list/mac.html',
+          url: '/page/tools/mac.html',
           date: '2021-09-05',
         },
         {
@@ -93,7 +93,7 @@ export default {
         },
         {
           name: 'Mac 开机自启动',
-          url: '/page/list/maclist.html',
+          url: '/page/tools/maclist.html',
           date: '2021-07-17',
         },
         {
@@ -158,7 +158,7 @@ export default {
         },
         {
           name: 'JS 原型链',
-          url: '/page/list/prototype.html',
+          url: '/page/js/prototype.html',
           date: '2021-03-13',
         },
         {
@@ -203,22 +203,22 @@ export default {
         },
         {
           name: '从自如搬家看代码整洁之道',
-          url: '/page/list/code_review.html',
+          url: '/page/life/code_review.html',
           date: '2020-08-22',
         },
         {
           name: '挑战大厂第3篇-new、call、create等常见函数的内部实现',
-          url: '/page/challenge/fn.html',
+          url: '/page/js/fn.html',
           date: '2020-04-08',
         },
         {
           name: '挑战大厂第2篇-手动实现promise.all',
-          url: '/page/challenge/promise_all.html',
+          url: '/page/js/promise_all.html',
           date: '2020-04-07',
         },
         {
           name: '挑战大厂第1篇-js树结构互转',
-          url: '/page/challenge/three.html',
+          url: '/page/js/three.html',
           date: '2020-04-06',
         },
         {
@@ -228,27 +228,27 @@ export default {
         },
         {
           name: 'vscode 使用指南',
-          url: '/page/list/vscode.html',
+          url: '/page/tools/vscode.html',
           date: '2019-10-01',
         },
         {
           name: 'js 拾遗',
-          url: '/page/list/base_summary.html',
+          url: '/page/js/base_summary.html',
           date: '2019-06-28',
         },
         {
           name: '听说你在找工作',
-          url: '/page/list/need_work.html',
+          url: '/page/life/need_work.html',
           date: '2019-04-07',
         },
         {
           name: 'JS 加法知多少？',
-          url: '/page/list/add.html',
+          url: '/page/js/add.html',
           date: '2019-03-06',
         },
         {
           name: 'App 二三记~',
-          url: '/page/list/app.html',
+          url: '/page/life/app.html',
           date: '2019-02-06',
         },
         {
@@ -273,12 +273,12 @@ export default {
         },
         {
           name: '网贷理财平台收益概览',
-          url: '/page/list/money_rate.html',
+          url: '/page/life/money_rate.html',
           date: '2018-11-19',
         },
         {
           name: 'vue 无痕刷新',
-          url: '/page/list/vue_reload.html',
+          url: '/page/vue/vue_reload.html',
           date: '2018-11-16',
         },
         {
@@ -288,12 +288,12 @@ export default {
         },
         {
           name: 'Vue ui 大法哪家强？',
-          url: '/page/list/vue_ui_contrast.html',
+          url: '/page/vue/vue_ui_contrast.html',
           date: '2018-11-03',
         },
         {
           name: 'css 布局：两边固定中间自适应',
-          url: '/page/list/css_layout_two.html',
+          url: '/page/css/css_layout_two.html',
           date: '2018-10-16',
         },
         {

@@ -30,8 +30,8 @@ Mac M1芯片电脑开机密码重置方法：
 2. 先粗略瞄一眼：[Mac 开发配置入门文档](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/index.html)
 
 3. **mac 软件免费下载平台**
-    - [MAC 青桔](https://www.macqj.com/)
-    - [MacWk](https://macwk.com.cn/soft/all/p1)
+  - [MAC 青桔](https://www.macqj.com/)
+  - [MacWk](https://macwk.com.cn/soft/all/p1)
 
 4. [腾讯柠檬](https://lemon.qq.com/lab)（供参考）
 
@@ -39,39 +39,44 @@ Mac M1芯片电脑开机密码重置方法：
 
 ## 软件安装
 
-### 安装以下 29 款软件
+### 安装以下 31 款软件
 
-应用商店或者百度搜索官网下载 13 款：
-
-- 谷歌浏览器、火狐浏览器、Microsoft Edge、Mac向日葵远程控制
-
-- 微信、QQ、企业微信、微信开发者工具、HBuilderX、腾讯会议
-
-- ApiPost、Robo 3T、vscode
-
-MacWk 平台下载 14 款：
+MacWk 平台下载 16 个：
 
 - XMind、Sketch、Axure、Ps、Microsoft Word 套件
-
-- PPDuck-图片保真压缩、iShot-截图
-
+- PPDuck-图片保真压缩、iShot-截图、Mac向日葵远程控制
 - Sourcetree、SnailSVN、SwitchHosts-修改 host、CheatSheet-查看快捷命令
-
 - iTerm2、RDM、Navicat Premium-各类数据库查看、Charles
 
 不要用百度网盘，选择天翼云盘下载速度会很快
 
-官网下载 2：
+应用商店或者官网下载 15 个：
 
+- [vscode](https://code.visualstudio.com/) 编程 IDE
+
+- [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html) 微信小程序开发
 - [快应用开发工具](https://doc.quickapp.cn/ide/new.html)
+- [HBuilderX](https://hx.dcloud.net.cn/Tutorial/install/macosx) uni-app 开发工具
 
+- [draw.io](https://www.drawio.com/) 画图工具
+- [ApiPost](https://www.apipost.cn/) API设计、调试、文档、自动化测试
+- [Robo 3T](https://robomongo.org/) 数据库可视化工具
+
+- [谷歌浏览器](https://chrome.xznwx.cn/mac.html)
+- [火狐浏览器](https://www.firefox.com.cn/)
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge?ep=0&form=MA13M0&es=40)
+
+- [微信](https://weixin.qq.com/)
+- [QQ](https://im.qq.com/index/)
+- [企业微信](https://work.weixin.qq.com/#indexDownload)
+- [腾讯会议](https://meeting.tencent.com/download?mfrom=OfficialIndex_TopBanner1_Download)
 - [百度网盘](https://pan.baidu.com/download?_at_=1720063213588#pan)
 
 ### iShot
 
 快捷键设置：
 
-- 取色：cmd + h
+- 取色： cmd + 2 进入截图状态然后点 h 键
 - 截图：cmd + 2
 - 延时全屏截图：cmd + 3
 - 开始/停止录屏：cmd + 4
@@ -238,6 +243,7 @@ MacWk 平台下载 14 款：
 - Unicode Highlight: Ambiguous Characters - false
 - Vue › Update Imports On File Move: Enabled - false
 - JavaScript › Update Imports On File Move: Enabled - never 启用或禁用在 VS Code 中重命名或移动文件时自动更新导入路径的功能。
+- eslint.validate ["javascript","javascriptreact","vue"]
 
 ### 用户代码片段
 
@@ -396,7 +402,7 @@ MacWk 平台下载 14 款：
 			"    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />",
 			"    <meta name=\"renderer\" content=\"webkit\" />",
 			"    <meta name=\"force-rendering\" content=\"webkit\" />",
-			"    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=0,viewport-fit=cover\" />",
+			"    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover\" />",
 			"    <title>Examples</title>",
 			"    <meta name=\"description\" content=\"\">",
 			"    <meta name=\"keywords\" content=\"\">",

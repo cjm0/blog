@@ -31,7 +31,7 @@ yarn && yarn dev
 
 github 地址 [https://github.com/cjm0/blog](https://github.com/cjm0/blog)
 
-项目预览 [blog.bigqianduan.top](http://blog.bigqianduan.top)
+项目预览 [https://cjm0.github.io/blog/](https://cjm0.github.io/blog/)
 
 
 ## 2. vue github
