@@ -110,7 +110,18 @@ MacWk 平台下载 16 个：
 
 ### ApiPost
 
+api 接口管理
+
 - 账号：1293004002@qq.com
+- 密码：xxxxxxxxx
+
+### natapp
+
+内网穿透：natapp 分配一个专属域名/端口来访问内网
+
+[使用文档](https://natapp.cn/article/natapp_newbie)
+
+- 账号：17810263249
 - 密码：xxxxxxxxx
 
 ### 谷歌浏览器配置
@@ -126,7 +137,8 @@ MacWk 平台下载 16 个：
 - Vue.js devtools
 - React Developer Tools
 - FeHelper(前端助手)
-- ModHeader - Modify HTTP headers
+- ModHeader - Modify HTTP headers：修改 HTTP 请求头、响应头和重定向 URL
+- EditThisCookie：cookie管理器，可以添加，删除，编辑，搜索，锁定和屏蔽cookies
 
 ![Proxy](../img/mac/1.png)
 ![Proxy](../img/mac/2.png)
@@ -171,7 +183,7 @@ MacWk 平台下载 16 个：
 32. CSS Peek 标签上查看 css 样式
 33. CodeSnap 代码截图
 34. Baidu Comate：百度智能 AI 编程插件
-35. es6-string-html：在字符串前加上一个前缀注释 /*html*/`<p>p1</p>` 以高亮语法
+35. es6-string-html：在模版字符串前加上一个前缀注释 /*html*/\`<p>p1</p>\` 以高亮 html
 
 ### 关闭的插件
 
@@ -237,7 +249,7 @@ MacWk 平台下载 16 个：
 - Telemetry Level - off
 - git.enabled: false 修复 vscode 造成 git.exe 内存占用过大的问题
 - git.autorefresh: false
-- Code Lens - true：打开 AI 提示 图
+- Code Lens - false：关闭 AI 提示图
 - Render Control Characters - true
 - Guides: Highlight Active Indentation - false 控制是否突出显示编辑器中活动的缩进参考线
 - Unicode Highlight: Ambiguous Characters - false
