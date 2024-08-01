@@ -41,11 +41,11 @@ TCP（Transmission Control Protocol，传输控制协议）是一个面向连接
 
 **三次握手过程：**
 
-1. Client：通知 Server 我要连接，不含应用层数据（SYN 1 => Server）。
+1. Client：通知 Server 我要连接，不含应用层数据（SYN1 => Server）
 
-2. Server：收到 Client 通知，同意连接，不含应用层数据（SYN+ACK 1 => Client）。
+2. Server：收到 Client 通知，同意连接，不含应用层数据（SYN1+ACK1 => Client）
 
-3. Client：收到了 Server 的同意（ACK 1 => Server TCP）
+3. Client：收到了 Server 的同意（ACK1 => Server）
 
 注意：
 
@@ -63,13 +63,13 @@ Server：没收到重发，一直没收到 ACK，释放资源。
 
 **四次挥手过程：**
 
-1. Client 我要关闭连接（FIN 1 => Server）
+1. Client 我要关闭连接（FIN1 => Server）
 
-2. Server 收到确认，此时 Server 还未关闭（ACK 1 => Client）
+2. Server 收到确认，此时 Server 还未关闭（ACK1 => Client）
 
-3. Server 我要关了（FIN 1 => Client）
+3. Server 我要关了（FIN1 => Client）
 
-4. Client 收到确认（ACK 1 => Server）
+4. Client 收到确认（ACK1 => Server）
 
 **为什么要四次挥手**
 
