@@ -127,8 +127,16 @@ export default defineUserConfig({
             link: '/'
           },
           {
-            text: '全部文章',
+            text: '技术文章',
             link: '/page/list/'
+          },
+          {
+            text: '生活感悟',
+            link: '/page/life/'
+          },
+          {
+            text: '关于我',
+            link: '/page/about/'
           },
           {
             text: 'VuePress笔记',
@@ -150,10 +158,6 @@ export default defineUserConfig({
                   link: '/page/vuepress/theme',
                 },
             ],
-          },
-          {
-            text: '关于我',
-            link: '/page/about/'
           },
           /* {
             text: '测试',

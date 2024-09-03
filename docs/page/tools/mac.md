@@ -30,8 +30,9 @@ Mac M1芯片电脑开机密码重置方法：
 2. 先粗略瞄一眼：[Mac 开发配置入门文档](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/index.html)
 
 3. **mac 软件免费下载平台**
-  - [MAC 青桔](https://www.macqj.com/)
-  - [MacWk](https://macwk.com.cn/soft/all/p1)
+- [MAC 青桔](https://www.macqj.com/)
+- [MacWk](https://macwk.com.cn/soft/all/p1)
+- [苹果软件盒子](https://www.macappbox.com)
 
 4. [腾讯柠檬](https://lemon.qq.com/lab)（供参考）
 
@@ -39,7 +40,7 @@ Mac M1芯片电脑开机密码重置方法：
 
 ## 软件安装
 
-### 安装以下 31 款软件
+### 安装以下 33 款软件
 
 MacWk 平台下载 16 个：
 
@@ -50,7 +51,11 @@ MacWk 平台下载 16 个：
 
 不要用百度网盘，选择天翼云盘下载速度会很快
 
-应用商店或者官网下载 15 个：
+苹果软件盒子下载 1 个：
+
+- ScreenBrush：Mac 屏幕标记和注解工具，在演示、教学或展示时更有效地突出和注释屏幕上的内容
+
+应用商店或者官网下载 16 个：
 
 - [vscode](https://code.visualstudio.com/) 编程 IDE
 
@@ -71,6 +76,7 @@ MacWk 平台下载 16 个：
 - [企业微信](https://work.weixin.qq.com/#indexDownload)
 - [腾讯会议](https://meeting.tencent.com/download?mfrom=OfficialIndex_TopBanner1_Download)
 - [百度网盘](https://pan.baidu.com/download?_at_=1720063213588#pan)
+- [uTools 工具管理平台](https://u.tools)
 
 ### iShot
 

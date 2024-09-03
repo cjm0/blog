@@ -1,5 +1,5 @@
 ---
-description: 技术文章列表页面
+description: 生活感悟列表页面
 head:
   - - meta
     - name: keywords
@@ -8,8 +8,8 @@ head:
       content: no-referrer
 ---
 
-# 技术文章
+# 生活感悟
 
 ******
 
-<vList/>
+<vLife/>

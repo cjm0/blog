@@ -72,11 +72,6 @@ export default {
           date: '2022-05-11',
         },
         {
-          name: '我的前端一天',
-          url: '/page/life/feday.html',
-          date: '2021-12-04',
-        },
-        {
           name: '从零配置前端开发环境-Mac',
           url: '/page/tools/mac.html',
           date: '2021-09-05',
@@ -87,24 +82,9 @@ export default {
           date: '2021-09-04',
         },
         {
-          name: '小思三则',
-          url: '/page/life/think.html',
-          date: '2021-08-30',
-        },
-        {
           name: 'Mac 开机自启动',
           url: '/page/tools/maclist.html',
           date: '2021-07-17',
-        },
-        {
-          name: '敏捷开发扫盲',
-          url: '/page/life/aglie.html',
-          date: '2021-04-28',
-        },
-        {
-          name: '你是怎么变自律的？',
-          url: '/page/life/discipline.html',
-          date: '2021-04-20',
         },
         {
           name: 'MongoDB 只读权限设置',
@@ -147,24 +127,9 @@ export default {
           date: '2021-04-02',
         },
         {
-          name: '十二规划',
-          url: '/page/life/plan.html',
-          date: '2021-03-22',
-        },
-        {
-          name: '一眼万年之生命的长度',
-          url: '/page/life/time.html',
-          date: '2021-03-21',
-        },
-        {
           name: 'JS 原型链',
           url: '/page/js/prototype.html',
           date: '2021-03-13',
-        },
-        {
-          name: '自信的锚点',
-          url: '/page/life/confidence.html',
-          date: '2021-03-07',
         },
         {
           name: 'SSO 单点登录',
@@ -197,16 +162,6 @@ export default {
           date: '2020-10-20',
         },
         {
-          name: '今天，从有趣的灵魂开始',
-          url: '/page/life/soul.html',
-          date: '2020-10-08',
-        },
-        {
-          name: '从自如搬家看代码整洁之道',
-          url: '/page/life/code_review.html',
-          date: '2020-08-22',
-        },
-        {
           name: '挑战大厂第3篇-new、call、create等常见函数的内部实现',
           url: '/page/js/fn.html',
           date: '2020-04-08',
@@ -237,24 +192,9 @@ export default {
           date: '2019-06-28',
         },
         {
-          name: '听说你在找工作',
-          url: '/page/life/need_work.html',
-          date: '2019-04-07',
-        },
-        {
           name: 'JS 加法知多少？',
           url: '/page/js/add.html',
           date: '2019-03-06',
-        },
-        {
-          name: 'App 二三记~',
-          url: '/page/life/app.html',
-          date: '2019-02-06',
-        },
-        {
-          name: '前端修炼之路',
-          url: '/page/list/fe_up.html',
-          date: '2019-01-28',
         },
         {
           name: 'npm cnpm npx nvm 傻傻分不清',
@@ -262,19 +202,9 @@ export default {
           date: '2019-01-16',
         },
         {
-          name: '经典资源收藏',
-          url: '/page/list/source_link.html',
-          date: '2018-11-27',
-        },
-        {
           name: 'webpack4 一点通',
           url: '/page/list/webpack4.html',
           date: '2018-11-21',
-        },
-        {
-          name: '网贷理财平台收益概览',
-          url: '/page/life/money_rate.html',
-          date: '2018-11-19',
         },
         {
           name: 'vue 无痕刷新',

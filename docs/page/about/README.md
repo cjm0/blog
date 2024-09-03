@@ -12,9 +12,7 @@ head:
 
 ## 关于网站
 
-网站基于 [Vuepress2](https://vuepress.vuejs.org/zh/guide/introduction.html)，使用 `Markdown` 语法。
-
-`Vuepress` 默认主题，网站部署于 `Github`，本地 `SourceTree` 管理代码。
+网站基于 [Vuepress2](https://vuepress.vuejs.org/zh/guide/introduction.html)，默认主题，`Markdown` 语法，网站部署于 `Github`。
 
 #### 网站内容
 
