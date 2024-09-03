@@ -1,10 +1,5 @@
-<!--
- * @Description : d
- * @Author      : chenjianmin
- * @Date        : 2024-09-03 16:01:36
--->
 <template>
-  <div class="v_list_index">
+  <div class="v_life_index">
     <ol>
       <li v-for="(item, index) in lists">
         <span class="list_num">{{ pages + index + 1 }}.</span>
@@ -13,10 +8,12 @@
       </li>
     </ol>
     <div class="page_index">
-      <span class="btn" @click="prev" :class="prevDisable ? 'disable' : ''">上一页</span>
-      <span class="btn" @click="next" :class="nextDisable ? 'disable' : ''">下一页</span>
-      <span class="btn">{{ curPage }}</span>
-      <span class="btn btn_last">共 {{ totalPage }} 页 {{ datas.length }}篇</span>
+      <template v-if="totalPage > 1">
+        <span class="btn" @click="prev" :class="prevDisable ? 'disable' : ''">上一页</span>
+        <span class="btn" @click="next" :class="nextDisable ? 'disable' : ''">下一页</span>
+        <span class="btn">{{ curPage }}</span>
+        <span class="btn btn_last">共 {{ totalPage }} 页 {{ datas.length }}篇</span>
+      </template>
     </div>
   </div>
 </template>
@@ -107,13 +104,13 @@ export default {
   },
   mounted() {
     this.totalPage = Math.ceil(this.datas.length / 20);
-    this.curPage = Number(localStorage.getItem('page')) || 1;
+    this.curPage = Number(localStorage.getItem('page_life')) || 1;
     this.getLists(this.curPage);
     this.clear();
   },
   methods: {
     getLists(page) {
-      localStorage.setItem('page', page);
+      localStorage.setItem('page_life', page);
       this.pages = (page - 1) * 20;
       this.lists = this.datas.slice(this.pages, this.pages + 20);
     },
@@ -161,7 +158,7 @@ export default {
 </script>
 
 <style lang="scss">
-.v_list_index {
+.v_life_index {
   ol {
     list-style: none;
     padding-left: 0;

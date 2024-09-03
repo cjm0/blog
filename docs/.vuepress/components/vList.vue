@@ -8,10 +8,12 @@
       </li>
     </ol>
     <div class="page_index">
-      <span class="btn" @click="prev" :class="prevDisable ? 'disable' : ''">上一页</span>
-      <span class="btn" @click="next" :class="nextDisable ? 'disable' : ''">下一页</span>
-      <span class="btn">{{ curPage }}</span>
-      <span class="btn btn_last">共 {{ totalPage }} 页 {{ datas.length }}篇</span>
+      <template v-if="totalPage > 1">
+        <span class="btn" @click="prev" :class="prevDisable ? 'disable' : ''">上一页</span>
+        <span class="btn" @click="next" :class="nextDisable ? 'disable' : ''">下一页</span>
+        <span class="btn">{{ curPage }}</span>
+        <span class="btn btn_last">共 {{ totalPage }} 页 {{ datas.length }}篇</span>
+      </template>
     </div>
   </div>
 </template>
