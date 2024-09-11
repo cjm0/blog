@@ -189,7 +189,7 @@ api 接口管理
 32. CSS Peek 标签上查看 css 样式
 33. CodeSnap 代码截图
 34. Baidu Comate：百度智能 AI 编程插件
-35. es6-string-html：在模版字符串前加上一个前缀注释 /*html*/\`<p>p1</p>\` 以高亮 html
+35. es6-string-html：在模版字符串前加上一个前缀注释 `/*html*/<p>p1</p>` 以高亮 html
 
 ### 关闭的插件
 
