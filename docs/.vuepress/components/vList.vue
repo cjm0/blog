@@ -144,7 +144,7 @@ export default {
           date: '2021-03-06',
         },
         {
-          name: 'ES2015~ES2021 各阶段新特性',
+          name: 'ES2015~ES2024 各阶段新特性',
           url: '/page/list/es6.html',
           date: '2021-03-05',
         },
