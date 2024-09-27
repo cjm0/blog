@@ -22,7 +22,7 @@ git commit -m 'deploy'
 
 # 如果发布到 https://github.com/cjm0/blog.git/vblog
 # git push -f git@gitee.com:<USERNAME>/<REPO>.git master:gh-pages
-git push -f git@github.com:cjm0/blog.git master:gh-pages
+git push -f git@github.com:cjm0/blog.git main:gh-pages
 
 # 返回上一次的工作目录
 cd -
