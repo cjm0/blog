@@ -443,7 +443,7 @@ api 接口管理
 	}
 ```
 
-### 终端安装
+## 终端安装
 
 1. Homebrew 安装
 
@@ -575,15 +575,15 @@ export PATH="/usr/local/mongodb/bin:$PATH"
 export PATH="/usr/local/opt/redis/bin:$PATH"
 
 # Created by mirror-config-china
-export IOJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/iojs
-export NODIST_IOJS_MIRROR=https://registry.npmmirror.com/mirrors/iojs
-export NVM_IOJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/iojs
-export NVMW_IOJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/iojs
+export NVM_IOJS_ORG_MIRROR=https://npmmirror.com/mirrors/iojs
+export NVMW_IOJS_ORG_MIRROR=https://npmmirror.com/mirrors/iojs # window
+export IOJS_ORG_MIRROR=https://npmmirror.com/mirrors/iojs
+export NODIST_IOJS_MIRROR=https://npmmirror.com/mirrors/iojs
 
-export NODEJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/node
-export NODIST_NODE_MIRROR=https://registry.npmmirror.com/mirrors/node
-export NVM_NODEJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/node
-export NVMW_NODEJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/node
+export NVM_NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node
+export NVMW_NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node # window
+export NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node
+export NODIST_NODE_MIRROR=https://npmmirror.com/mirrors/node
 
-export NVMW_NPM_MIRROR=https://registry.npmmirror.com/mirrors/npm
+export NVMW_NPM_MIRROR=https://npmmirror.com/mirrors/npm # window
 ```
