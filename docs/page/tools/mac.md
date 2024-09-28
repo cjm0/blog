@@ -40,14 +40,15 @@ Mac M1芯片电脑开机密码重置方法：
 
 ## 软件安装
 
-### 安装以下 33 款软件
+### 安装以下 35 款软件
 
 MacWk 平台下载 16 个：
 
 - XMind、Sketch、Axure、Ps、Microsoft Word 套件
-- PPDuck-图片保真压缩、iShot-截图、Mac向日葵远程控制
+- iShot-截图、Mac向日葵远程控制
 - Sourcetree、SnailSVN、SwitchHosts-修改 host、CheatSheet-查看快捷命令
 - iTerm2、RDM、Navicat Premium-各类数据库查看、Charles
+- Termius-SSH 连接工具
 
 不要用百度网盘，选择天翼云盘下载速度会很快
 
@@ -55,10 +56,9 @@ MacWk 平台下载 16 个：
 
 - ScreenBrush：Mac 屏幕标记和注解工具，在演示、教学或展示时更有效地突出和注释屏幕上的内容
 
-应用商店或者官网下载 16 个：
+应用商店或者官网下载 18 个：
 
 - [vscode](https://code.visualstudio.com/) 编程 IDE
-
 - [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html) 微信小程序开发
 - [快应用开发工具](https://doc.quickapp.cn/ide/new.html)
 - [HBuilderX](https://hx.dcloud.net.cn/Tutorial/install/macosx) uni-app 开发工具
@@ -66,6 +66,8 @@ MacWk 平台下载 16 个：
 - [draw.io](https://www.drawio.com/) 画图工具
 - [ApiPost](https://www.apipost.cn/) API设计、调试、文档、自动化测试
 - [Robo 3T](https://robomongo.org/) 数据库可视化工具
+- [PPDuck](https://ppduck.com/) 图片保真压缩
+- [Amphetamine](apple 应用商店) 休眠设置软件
 
 - [谷歌浏览器](https://chrome.xznwx.cn/mac.html)
 - [火狐浏览器](https://www.firefox.com.cn/)
@@ -82,7 +84,7 @@ MacWk 平台下载 16 个：
 
 快捷键设置：
 
-- 取色： cmd + 2 进入截图状态然后点 h 键
+- 取色：cmd + 2 进入截图状态然后点 h 键
 - 截图：cmd + 2
 - 延时全屏截图：cmd + 3
 - 开始/停止录屏：cmd + 4
@@ -153,43 +155,43 @@ api 接口管理
 
 ## vscode 配置
 
-### 安装插件 34 个
+### 安装插件 35 个
 
 1. any-rule：正则大全
 2. Apollo GraphQL：GraphQL 支持
 3. Auto Rename Tag：自动重命名配对的 HTML/XML 标记
 4. Chinese (Simplified) (简体中文)
 5. Code Runner：代码运行程序
-6. Docker：Docker 扩展，可生成、管理和部署容器化应用程序
-7. EditorConfig for VS Code VS Code：查找 .editorconfig 的设置覆盖用户/工作区设置
-8. ESLint eslint：规则检查
-9. filesize：显示焦点文件的大小
-10. GitLens — Supercharge：Git 增强
-11. Git History：Git 历史记录
-12. HTML CSS Support：HTML CSS 支持
-13. Image preview：图像预览
-14. Import Cost：显示导入包的大小
-15. IntelliSense for CSS class names in HTML：HTML CSS 类名补全
-16. JavaScript (ES6) code snippets：ES6 代码片段
-17. JavaScript Debugger (Nightly)：JavaScript 调试器
-18. JSON Tools：json 格式化和压缩 Ctrl(Cmd)+Alt+M for JSON pretty、Alt+M for JSON minify json
-19. JSON Viewer：json 查看器
-20. koroFileHeader：生成文件头部注释和函数注释
-21. Markdown Preview Enhanced：Markdown 预览增强版
-22. Monokai Themes：Monokai 主题
-23. open in browser：浏览器或应用程序中打开当前文件
-24. Path Intellisense：自动完成文件名
-25. Prettier - Code formatter：代码格式化程序
-26. Prettify JSON：美化 JSON
-27. Todo Tree：显示 TODO、FIXME 等注释标签
-28. Vitest：Vite 原生测试框架
-29. vscode-icons：vscode 图标
-30. Vue - Official：vue 支持
-31. Vue 3 Snippets：Vue 3 片段
-32. CSS Peek 标签上查看 css 样式
-33. CodeSnap 代码截图
-34. Baidu Comate：百度智能 AI 编程插件
-35. es6-string-html：在模版字符串前加上一个前缀注释 `/*html*/<p>p1</p>` 以高亮 html
+6. CodeSnap：代码截图
+7. CSS Peek：标签上查看 css 样式
+8. Docker：Docker 扩展，可生成、管理和部署容器化应用程序
+9. EditorConfig for VS Code VS Code：查找 .editorconfig 的设置覆盖用户/工作区设置
+10. es6-string-html：在模版字符串前加上一个前缀注释 `/*html*/<p>p1</p>` 以高亮 html
+11. ESLint eslint：规则检查
+12. filesize：显示焦点文件的大小
+13. Git History：Git 历史记录
+14. GitLens — Git supercharged：Git 增强
+15. HTML CSS Support：HTML CSS 支持
+16. Image preview：图像预览
+17. Import Cost：显示导入包的大小
+18. IntelliSense for CSS class names in HTML：HTML CSS 类名补全
+19. JavaScript (ES6) code snippets：ES6 代码片段
+20. JavaScript Debugger (Nightly)：JavaScript 调试器
+21. JSON Tools：json 格式化和压缩 Ctrl(Cmd)+Alt+M for JSON pretty、Alt+M for JSON minify json
+22. JSON Viewer：json 查看器
+23. koroFileHeader：生成文件头部注释和函数注释
+24. Markdown Preview Enhanced：Markdown 预览增强版
+25. Monokai Themes：Monokai 主题
+26. open in browser：浏览器或应用程序中打开当前文件
+27. Path Intellisense：自动完成文件名
+28. Prettier - Code formatter：代码格式化程序
+29. Prettify JSON：美化 JSON
+30. Todo Tree：显示 TODO、FIXME 等注释标签
+31. Vitest：Vite 原生测试框架
+32. vscode-icons：vscode 图标
+33. Vue - Official：vue 支持
+34. Vue 3 Snippets：Vue 3 片段
+35. Baidu Comate：百度智能 AI 编程插件
 
 ### 关闭的插件
 
@@ -207,18 +209,18 @@ api 接口管理
 - Auto Save - onFocusChange
 - Tab Size - 2
 - Cursor Style - line-thin
-- Word Wrap - on
+- Word Wrap - on 在视区宽度处换行
 - Auto Indent - advanced 粘贴保留格式
 - Folding Strategy - indentation 按空格缩进收起
 - Guides: Highlight Active Indentation - false 控制是否突出显示编辑器中活动的缩进参考线。
 - Match Brackets - never 突出显示匹配的括号
-- Max Tokenization Line Length - 100000
+- Max Tokenization Line Length - 50000
 - Sticky Scroll: Enabled - false 关闭粘性滚动
 - Cursor Blinking - smooth
 - Minimap: Enabled - false
 - Minimap: Max Column - 40
 - Files: Default Language - html 新建文件时文件格式
-- Trim Trailing Whitespace - true 文件保存时去除末尾的空格
+- Trim Trailing Whitespace - false 文件保存时去除末尾的空格
 - Color Theme - Monokai
 - Icon Theme - VSCode Icons
 - Tree: Indent - 10
@@ -230,7 +232,7 @@ api 接口管理
 - Confirm Drag And Drop - false
 - Follow Symlinks - false 修复 vscode 造成 rg.exe内存占用过大的问题
 - Automation Profile: Osx
-- Integrated: Cwd - /Users/cjm/
+- Integrated: Cwd - /Users/qianduanyiguozhu/
 - Default Profile: zsh
 - Page Size - 0
 - Trust: Untrusted Files - open
@@ -260,7 +262,7 @@ api 接口管理
 - Guides: Highlight Active Indentation - false 控制是否突出显示编辑器中活动的缩进参考线
 - Unicode Highlight: Ambiguous Characters - false
 - Vue › Update Imports On File Move: Enabled - false
-- JavaScript › Update Imports On File Move: Enabled - never 启用或禁用在 VS Code 中重命名或移动文件时自动更新导入路径的功能。
+- JavaScript › Update Imports On File Move - prompt 启用或禁用在 VS Code 中重命名或移动文件时自动更新导入路径的功能。
 - eslint.validate ["javascript","javascriptreact","vue"]
 
 ### 用户代码片段
@@ -496,20 +498,20 @@ nginx 下载：
 4. nvm 安装
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
-touch ~/.bash_profile
+touch ~/.bash_profile #没有要新建 bash_profile
 
 vim ~/.bash_profile 输入提示的三行
   export NVM_DIR="$HOME/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
   [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source ~/.bash_profile
+source ~/.bash_profile // 重新加载配置
 
 nvm --version
 
-nvm 换源：export NVM_NODEJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors/node
+nvm 换源：export NVM_NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node
 新电脑默认全局安装了 v16 版本的，要先卸载掉
 
 安装 node
@@ -526,16 +528,39 @@ nvm 换源：export NVM_NODEJS_ORG_MIRROR=https://registry.npmmirror.com/mirrors
 
 下载 pm2
   cnpm install -g pm2
+	pm2 -v
 ```
 
 5. zsh 安装 oh-my-zsh 插件
 
 ```bash
-zsh 安装完成之后退出当前会话重新打开一个终端窗口
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+	zsh 安装完成之后退出当前会话重新打开一个终端窗口
+	wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 ```
 
-5. 全局变量设置
+6. zsh 插件：
+```bash
+	zsh-autosuggestions
+		命令提示插件，当你输入命令时，会自动推测你可能需要输入的命令，按下右键可以快速采用建议
+
+		git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+	zsh-syntax-highlighting
+		命令语法校验插件，在输入命令的过程中，若指令不合法，则指令显示为红色，若指令合法就会显示为绿色
+
+		git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+	z
+		文件夹快捷跳转插件，对于曾经跳转过的目录，只需要输入最终目标文件夹名称，就可以快速跳转
+
+	.zshrc 文件加入插件配置
+		plugins=(git zsh-autosuggestions zsh-syntax-highlighting z)
+
+	更新配置
+		source ~/.zshrc
+```
+
+7. 全局变量设置
 
 .bashrc：被非登录用户读取
 
@@ -553,7 +578,7 @@ Mac 安装 omyzsh 后，terminal init 的时候并不会执行 ~/.bash_profile�
 
 **然后所有变量都加在 .bash_profile 中**
 
-.bash_profile 变量参考：
+8. `.bash_profile` 变量参考：
 
 ```bash
 # homebrew
@@ -564,17 +589,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# deno path
-export DENO_PATH="/Users/qianduanyiguozhu/.deno"
-export PATH="$DENO_PATH/bin:$PATH"
-
-# mongodb path
-export PATH="/usr/local/mongodb/bin:$PATH"
-
-# redis path
-export PATH="/usr/local/opt/redis/bin:$PATH"
-
-# Created by mirror-config-china
+# nvm、node
 export NVM_IOJS_ORG_MIRROR=https://npmmirror.com/mirrors/iojs
 export NVMW_IOJS_ORG_MIRROR=https://npmmirror.com/mirrors/iojs # window
 export IOJS_ORG_MIRROR=https://npmmirror.com/mirrors/iojs
@@ -586,4 +601,14 @@ export NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node
 export NODIST_NODE_MIRROR=https://npmmirror.com/mirrors/node
 
 export NVMW_NPM_MIRROR=https://npmmirror.com/mirrors/npm # window
+
+# deno
+export DENO_PATH="/Users/qianduanyiguozhu/.deno"
+export PATH="$DENO_PATH/bin:$PATH"
+
+# mongodb
+export PATH="/usr/local/mongodb/bin:$PATH"
+
+# redis
+export PATH="/usr/local/opt/redis/bin:$PATH"
 ```
