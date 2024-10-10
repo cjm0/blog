@@ -155,14 +155,14 @@ api 接口管理
 
 ## vscode 配置
 
-### 安装插件 35 个
+### 安装插件 34 个
 
 1. any-rule：正则大全
 2. Apollo GraphQL：GraphQL 支持
-3. Auto Rename Tag：自动重命名配对的 HTML/XML 标记
-4. Chinese (Simplified) (简体中文)
-5. Code Runner：代码运行程序
-6. CodeSnap：代码截图
+3. Chinese (Simplified) (简体中文)
+4. Code Runner：代码运行程序
+5. CodeSnap：代码截图
+6. common-intellisense：组件库提示插件
 7. CSS Peek：标签上查看 css 样式
 8. Docker：Docker 扩展，可生成、管理和部署容器化应用程序
 9. EditorConfig for VS Code VS Code：查找 .editorconfig 的设置覆盖用户/工作区设置
@@ -183,15 +183,14 @@ api 接口管理
 24. Markdown Preview Enhanced：Markdown 预览增强版
 25. Monokai Themes：Monokai 主题
 26. open in browser：浏览器或应用程序中打开当前文件
-27. Path Intellisense：自动完成文件名
-28. Prettier - Code formatter：代码格式化程序
-29. Prettify JSON：美化 JSON
-30. Todo Tree：显示 TODO、FIXME 等注释标签
-31. Vitest：Vite 原生测试框架
-32. vscode-icons：vscode 图标
-33. Vue - Official：vue 支持
-34. Vue 3 Snippets：Vue 3 片段
-35. Baidu Comate：百度智能 AI 编程插件
+27. Prettier - Code formatter：代码格式化程序
+28. Prettify JSON：美化 JSON
+29. Todo Tree：显示 TODO、FIXME 等注释标签
+30. Vitest：Vite 原生测试框架
+31. vscode-icons：vscode 图标
+32. Vue - Official：vue 支持
+33. Vue 3 Snippets：Vue 3 片段
+34. Baidu Comate：百度智能 AI 编程插件
 
 ### 关闭的插件
 
@@ -203,6 +202,8 @@ api 接口管理
 6. Dash：API 文档浏览器和代码片段管理器
 7. View Node Package：直接从 Code 打开 Node 包存储库/文档
 8. Sass/Less/Stylus/Pug/Jade/Typescript/Javascript Compile Hero Pro：编译 ts、tsx、scss、less、stylus、jade、pug 和 es6+。
+9. Auto Rename Tag：自动重命名配对的 HTML/XML 标记，vscode 已内置
+10. Path Intellisense：自动完成文件名，vscode 已内置
 
 ### 设置调整
 
@@ -264,6 +265,7 @@ api 接口管理
 - Vue › Update Imports On File Move: Enabled - false
 - JavaScript › Update Imports On File Move - prompt 启用或禁用在 VS Code 中重命名或移动文件时自动更新导入路径的功能。
 - eslint.validate ["javascript","javascriptreact","vue"]
+- Linked Editing："控制编辑器是否启用了链接编辑。根据语言的不同，相关符号如HTML标签在编辑时会被更新。" 默认情况下为false
 
 ### 用户代码片段
 
