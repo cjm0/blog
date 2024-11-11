@@ -30,8 +30,9 @@ Mac M1芯片电脑开机密码重置方法：
 2. 先粗略瞄一眼：[Mac 开发配置入门文档](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/index.html)
 
 3. **mac 软件免费下载平台**
-- [MAC 青桔](https://www.macqj.com/)
 - [MacWk](https://macwk.com.cn/soft/all/p1)
+- [马可菠萝](https://www.macbl.com/app/top/all)
+- [MAC 青桔](https://www.macqj.com/)
 - [苹果软件盒子](https://www.macappbox.com)
 
 4. [腾讯柠檬](https://lemon.qq.com/lab)（供参考）
@@ -40,12 +41,11 @@ Mac M1芯片电脑开机密码重置方法：
 
 ## 软件安装
 
-### 安装以下 35 款软件
+### 安装以下 36 款软件
 
-MacWk 平台下载 16 个：
+MacWk 平台下载 15 个：
 
-- XMind、Sketch、Axure、Ps、Microsoft Word 套件
-- iShot-截图、Mac向日葵远程控制
+- XMind、Sketch、Axure、Ps、Microsoft Word 套件、Mac向日葵远程控制
 - Sourcetree、SnailSVN、SwitchHosts-修改 host、CheatSheet-查看快捷命令
 - iTerm2、RDM、Navicat Premium-各类数据库查看、Charles
 - Termius-SSH 连接工具
@@ -56,7 +56,7 @@ MacWk 平台下载 16 个：
 
 - ScreenBrush：Mac 屏幕标记和注解工具，在演示、教学或展示时更有效地突出和注释屏幕上的内容
 
-应用商店或者官网下载 18 个：
+应用商店或者官网下载 20 个：
 
 - [vscode](https://code.visualstudio.com/) 编程 IDE
 - [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/stable.html) 微信小程序开发
@@ -67,12 +67,14 @@ MacWk 平台下载 16 个：
 - [ApiPost](https://www.apipost.cn/) API设计、调试、文档、自动化测试
 - [Robo 3T](https://robomongo.org/) 数据库可视化工具
 - [PPDuck](https://ppduck.com/) 图片保真压缩
+- [iShot](https://apps.apple.com/cn/app/ishot-%E4%BC%98%E7%A7%80%E7%9A%84%E6%88%AA%E5%9B%BE%E8%B4%B4%E5%9B%BE%E5%BD%95%E5%B1%8F%E5%BD%95%E9%9F%B3ocr%E7%BF%BB%E8%AF%91%E5%8F%96%E8%89%B2%E6%A0%87%E6%B3%A8%E5%B7%A5%E5%85%B7/id1485844094?mt=12&ct=betterapps) 截图软件
 - [Amphetamine](apple 应用商店) 休眠设置软件
 
 - [谷歌浏览器](https://chrome.xznwx.cn/mac.html)
 - [火狐浏览器](https://www.firefox.com.cn/)
 - [Microsoft Edge](https://www.microsoft.com/en-us/edge?ep=0&form=MA13M0&es=40)
 
+- [钉钉](https://page.dingtalk.com/wow/z/dingtalk/simple/ddhomedownload#/)
 - [微信](https://weixin.qq.com/)
 - [QQ](https://im.qq.com/index/)
 - [企业微信](https://work.weixin.qq.com/#indexDownload)
@@ -154,6 +156,8 @@ api 接口管理
 ![ModHeader](../img/mac/4.png)
 
 ## vscode 配置
+
+可通过账号同步功能同步全部插件和配置
 
 ### 安装插件 34 个
 
@@ -467,8 +471,8 @@ api 接口管理
     git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
   替换 Homebrew Bottles 源：
     cd ~
-    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
-    source ~/.bash_profile
+    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.zprofile
+    source ~/.zprofile
 ```
 
 2. xcode-select 安装
@@ -502,14 +506,14 @@ nginx 下载：
 ```bash
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
-touch ~/.bash_profile #没有要新建 bash_profile
+touch ~/.zprofile #没有要新建 zprofile
 
-vim ~/.bash_profile 输入提示的三行
+vim ~/.zprofile 输入提示的三行
   export NVM_DIR="$HOME/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
   [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source ~/.bash_profile // 重新加载配置
+source ~/.zprofile // 重新加载配置
 
 nvm --version
 
@@ -544,12 +548,10 @@ nvm 换源：export NVM_NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node
 ```bash
 	zsh-autosuggestions
 		命令提示插件，当你输入命令时，会自动推测你可能需要输入的命令，按下右键可以快速采用建议
-
 		git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
 	zsh-syntax-highlighting
 		命令语法校验插件，在输入命令的过程中，若指令不合法，则指令显示为红色，若指令合法就会显示为绿色
-
 		git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 	z
@@ -568,23 +570,30 @@ nvm 换源：export NVM_NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node
 
 .bash_profile：只能被登录用户读取，修改后执行 source ~/.bash_profile 才生效
 
+.zprofile：mac m 芯片由 bash_profile 变成了 zprofile
+
 .zshrc：无论登录和非登录用户都可以读取，修改环境变量，保存修改重启终端即可
 
-Mac OS X 的终端 Terminal.app 实际上运行了『登录Shell』而不是『非登录shell』，默认调用 .bash_profile 而不是 .bashrc
+Mac OS X 的终端 Terminal.app 实际上运行了『登录Shell』而不是『非登录shell』，默认调用 .zprofile 而不是 .bashrc
 
-Mac 安装 omyzsh 后，terminal init 的时候并不会执行 ~/.bash_profile、~/.bashrc 等脚本，默认启动执行脚本变为了 ～/.zshrc
+Mac 安装 omyzsh 后，terminal init 的时候并不会执行 ~/.zprofile、~/.bashrc 等脚本，默认启动执行脚本变为了 ～/.zshrc
 
 为了统一管理，做一下设置：
 
-**.zshrc 最后一行加此代码 source ~/.bash_profile**
+**.zshrc 最后一行加此代码 source ~/.zprofile**
 
-**然后所有变量都加在 .bash_profile 中**
+**然后所有变量都加在 .zprofilee 中**
 
-8. `.bash_profile` 变量参考：
+8. `.zprofile` 变量参考：
 
 ```bash
+# 保存命令：source ~/.zprofile              
+
 # homebrew
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+export HOMEBREW_PIP_INDEX_URL=http://mirrors.aliyun.com/pypi/simple #ckbrew
+export HOMEBREW_API_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles/api  #ckbrew
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles #ckbrew
+eval $(/opt/homebrew/bin/brew shellenv) #ckbrew
 
 # nvm path
 export NVM_DIR="$HOME/.nvm"
@@ -604,13 +613,43 @@ export NODIST_NODE_MIRROR=https://npmmirror.com/mirrors/node
 
 export NVMW_NPM_MIRROR=https://npmmirror.com/mirrors/npm # window
 
-# deno
-export DENO_PATH="/Users/qianduanyiguozhu/.deno"
-export PATH="$DENO_PATH/bin:$PATH"
-
-# mongodb
-export PATH="/usr/local/mongodb/bin:$PATH"
+# mongod
+export PATH="/opt/homebrew/opt/mongodb-community/bin:$PATH"
 
 # redis
-export PATH="/usr/local/opt/redis/bin:$PATH"
+export PATH="/opt/homebrew/opt/redis/bin:$PATH"
+
+# nginx
+export PATH="/opt/homebrew/opt/nginx/bin:$PATH"
+
+# gnu-sed
+export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+
+# go
+export PATH="/opt/homebrew/opt/go/bin:$PATH"
+
+# deno
+export PATH="/Users/qianduanyiguozhu/.deno/bin:$PATH"
+
+# python
+export PATH="/opt/homebrew/opt/python/libexec/bin:$PATH"
+
+# oracle
+export LIB_ORACLE_PATH="/Users/qianduanyiguozhu/lib/instantclient_19_8"
+export PATH="$LIB_ORACLE_PATH:$PATH"
+
+# mongod 自启动、移除自启动、重启等别名
+alias mongod.start='sudo launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mongod.plist'
+alias mongod.stop='launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.mongod.plist'
+alias mongod.restart='mongod.stop && mongod.start'
+
+# redis 自启动、移除自启动、重启等别名
+alias redis.start='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist'
+alias redis.stop='launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist'
+alias redis.restart='redis.stop && redis.start'
+
+# nginx 自启动、移除自启动、重启等别名
+alias nginx.start='launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist'
+alias nginx.stop='launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist'
+alias nginx.restart='nginx.stop && nginx.start'
 ```
