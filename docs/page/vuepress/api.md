@@ -48,7 +48,7 @@ VuePress 使用 [markdown-it](https://github.com/markdown-it/markdown-it) 来解
 
 ***粗体+斜体***
 
-~~删除线~~
+~~删除线~~      
 
 ***
 

@@ -31,24 +31,33 @@ Mac M1芯片电脑开机密码重置方法：
 
 3. **mac 软件免费下载平台**
 - [MacWk](https://macwk.com.cn/soft/all/p1)
+- [元婴 MAC 软件站](https://maczz.net/)
 - [马可菠萝](https://www.macbl.com/app/top/all)
+- [Mac618](https://www.mac618.com/)
 - [MAC 青桔](https://www.macqj.com/)
 - [苹果软件盒子](https://www.macappbox.com)
 
-4. [腾讯柠檬](https://lemon.qq.com/lab)（供参考）
-
-5. [玩法儿](https://www.waerfa.com/category/download)（供参考）
+4. 供参考
+- [腾讯柠檬](https://lemon.qq.com/lab)
+- [玩法儿](https://www.waerfa.com/category/download)
+- [XMac](https://xmac.app/)
+- [佛系软件](https://foxirj.com/category/macos)
+- [Xclient](https://xclient.info/s/c/dev/)
+- [digit77](https://www.digit77.com/categories/macapps?page=11)
+- [XMAC](https://www.xmac.im/16_837.html) 苹果电脑 MAC 游戏第一站 
 
 ## 软件安装
 
-### 安装以下 36 款软件
+### 安装以下 41 款软件
 
-MacWk 平台下载 15 个：
+MacWk 平台下载 20 个：
 
-- XMind、Sketch、Axure、Ps、Microsoft Word 套件、Mac向日葵远程控制
+- XMind、Sketch、Axure、Ps、Microsoft Word 套件
+- Mac向日葵远程控制、Microsoft Remote Desktop-windows 远程控制
 - Sourcetree、SnailSVN、SwitchHosts-修改 host、CheatSheet-查看快捷命令
 - iTerm2、RDM、Navicat Premium-各类数据库查看、Charles
-- Termius-SSH 连接工具
+- Termius-SSH 连接工具、AlDente-电量管理工具、CleanMyMac X-电脑清理工具
+- Downie-视频下载工具、Keka-解压缩工具
 
 不要用百度网盘，选择天翼云盘下载速度会很快
 
@@ -159,9 +168,9 @@ api 接口管理
 
 可通过账号同步功能同步全部插件和配置
 
-### 安装插件 34 个
+### 安装插件 33 个
 
-1. any-rule：正则大全
+1. Baidu Comate：百度智能 AI 编程插件
 2. Apollo GraphQL：GraphQL 支持
 3. Chinese (Simplified) (简体中文)
 4. Code Runner：代码运行程序
@@ -194,7 +203,6 @@ api 接口管理
 31. vscode-icons：vscode 图标
 32. Vue - Official：vue 支持
 33. Vue 3 Snippets：Vue 3 片段
-34. Baidu Comate：百度智能 AI 编程插件
 
 ### 关闭的插件
 
@@ -208,6 +216,7 @@ api 接口管理
 8. Sass/Less/Stylus/Pug/Jade/Typescript/Javascript Compile Hero Pro：编译 ts、tsx、scss、less、stylus、jade、pug 和 es6+。
 9. Auto Rename Tag：自动重命名配对的 HTML/XML 标记，vscode 已内置
 10. Path Intellisense：自动完成文件名，vscode 已内置
+11. any-rule：正则大全
 
 ### 设置调整
 
