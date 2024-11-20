@@ -31,8 +31,9 @@ Mac M1芯片电脑开机密码重置方法：
 
 3. **mac 软件免费下载平台**
 - [MacWk](https://macwk.com.cn/soft/all/p1)
+- [macw](https://www.macw.com/mac/61.html)
 - [元婴 MAC 软件站](https://maczz.net/)
-- [马可菠萝](https://www.macbl.com/app/top/all)
+- [马可波罗](https://www.macbl.com/app/top/all)
 - [Mac618](https://www.mac618.com/)
 - [MAC 青桔](https://www.macqj.com/)
 - [苹果软件盒子](https://www.macappbox.com)
@@ -91,16 +92,18 @@ MacWk 平台下载 20 个：
 - [百度网盘](https://pan.baidu.com/download?_at_=1720063213588#pan)
 - [uTools 工具管理平台](https://u.tools)
 
-### iShot
+### ishot 
 
 快捷键设置：
 
-- 取色：cmd + 2 进入截图状态然后点 h 键
+- 截图翻译：cmd + 1
 - 截图：cmd + 2
-- 延时全屏截图：cmd + 3
-- 开始/停止录屏：cmd + 4
-- 暂停/恢复录屏：cmd + 5
-- 开始录音：cmd + 6
+- 取色：cmd + 2 进入截图状态然后点 h 键
+- ORC：cmd + 3
+- 延时全屏截图：cmd + 4
+- 开始/停止录屏：cmd + 5
+- 暂停/恢复录屏：cmd + 6
+- 开始录音：cmd + 7
 
 ### SwitchHosts
 
