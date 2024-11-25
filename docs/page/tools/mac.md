@@ -33,6 +33,7 @@ Mac M1芯片电脑开机密码重置方法：
 - [MacWk](https://macwk.com.cn/soft/all/p1)
 - [macw](https://www.macw.com/mac/61.html)
 - [元婴 MAC 软件站](https://maczz.net/)
+- [appstorrent](https://appstorrent.ru/162-transmit.html)
 - [马可波罗](https://www.macbl.com/app/top/all)
 - [Mac618](https://www.mac618.com/)
 - [MAC 青桔](https://www.macqj.com/)
@@ -49,16 +50,16 @@ Mac M1芯片电脑开机密码重置方法：
 
 ## 软件安装
 
-### 安装以下 41 款软件
+### 安装以下 42 款软件
 
-MacWk 平台下载 20 个：
+MacWk 平台下载 21 个：
 
 - XMind、Sketch、Axure、Ps、Microsoft Word 套件
 - Mac向日葵远程控制、Microsoft Remote Desktop-windows 远程控制
 - Sourcetree、SnailSVN、SwitchHosts-修改 host、CheatSheet-查看快捷命令
-- iTerm2、RDM、Navicat Premium-各类数据库查看、Charles
+- iTerm2、RDM、Navicat Premium-各类数据库查看、Charles-抓包工具
 - Termius-SSH 连接工具、AlDente-电量管理工具、CleanMyMac X-电脑清理工具
-- Downie-视频下载工具、Keka-解压缩工具
+- Downie-视频下载工具、Keka-解压缩工具、MonitorControl-显示器亮度调接工具
 
 不要用百度网盘，选择天翼云盘下载速度会很快
 
