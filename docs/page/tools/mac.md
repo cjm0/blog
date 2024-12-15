@@ -172,7 +172,7 @@ api 接口管理
 
 可通过账号同步功能同步全部插件和配置
 
-### 安装插件 33 个
+### 安装插件 35 个
 
 1. Baidu Comate：百度智能 AI 编程插件
 2. Apollo GraphQL：GraphQL 支持
@@ -207,6 +207,8 @@ api 接口管理
 31. vscode-icons：vscode 图标
 32. Vue - Official：vue 支持
 33. Vue 3 Snippets：Vue 3 片段
+34. SVG：SVG 编辑
+35. SVG Preview：SVG 预览
 
 ### 关闭的插件
 

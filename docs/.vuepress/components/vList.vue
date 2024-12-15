@@ -24,6 +24,11 @@ export default {
     return {
       datas: [
         {
+          name: '怎么免费安装 mac 软件？',
+          url: '/page/tools/mac_down.html',
+          date: '2024-12-15',
+        },
+        {
           name: 'webview 退出拦截和通信',
           url: '/page/app/webview.html',
           date: '2024-07-15',
