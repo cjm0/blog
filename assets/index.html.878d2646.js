@@ -1,0 +1,1 @@
+import{_,o as n,c as o,a as t,r}from"./app.544215b1.js";const a={};function c(l,s){const e=r("vHome");return n(),o("div",null,[t(e)])}var d=_(a,[["render",c],["__file","index.html.vue"]]);export{d as default};
