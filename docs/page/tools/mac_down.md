@@ -1,6 +1,6 @@
 ---
 sidebar: auto
-description: 怎么安装免费 mac 软件？
+description: 怎么安装免费的 mac 软件？
 head:
   - - meta
     - name: keywords

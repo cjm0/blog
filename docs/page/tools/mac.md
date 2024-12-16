@@ -266,8 +266,11 @@ api 接口管理
 - Validate: Scripts - false
 - Gutterpreview: Image Preview Max Height - 2000
 - Gutterpreview: Image Preview Max Width - 2000
-- Prettier: Semi - false
-- Prettier: Single Quote - true
+- Editor: Format On Save - true
+- Editor: Format On Save Mode - modificationslfAvailable
+- Prettier: Print Width - 120
+- Prettier: Require Config - true
+- Cwd - /Users/qianduanyiguozhu/
 - Save All Files Before Run - true
 - Quote Style - single
 - Surveys: Enabled - false
