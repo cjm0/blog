@@ -266,8 +266,8 @@ api 接口管理
 - Validate: Scripts - false
 - Gutterpreview: Image Preview Max Height - 2000
 - Gutterpreview: Image Preview Max Width - 2000
-- Editor: Format On Save - false
-- Editor: Format On Save Mode - modificationslfAvailable
+- Editor: Format On Save - true 保存时设置文件格式。格式化程序必须可用，并且不得关闭编辑器
+- Editor: Format On Save Mode - modificationslfAvailable 控制在保存时设置格式是设置整个文件格式还是仅设置修改内容的格式
 - Prettier: Print Width - 120
 - Prettier: Require Config - true
 - Prettier: Semi - false

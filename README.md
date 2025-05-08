@@ -61,7 +61,7 @@ cd blog
 yarn && yarn dev
 
 # 发布
-sh github.sh
+bash github.sh
 ```
 
 #### 关于我

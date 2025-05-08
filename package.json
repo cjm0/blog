@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "push": "bash github.sh "
+    "push": "bash github.sh"
   },
   "devDependencies": {
     "os": "^0.1.1",
